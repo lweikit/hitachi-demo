@@ -1,11 +1,11 @@
 {
   "name": "hitachi",
-  "homepage": "https://lweikit.github.io/hitachi-demo",
+  "homepage": "https://lweikit.github.io/",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next export -o build/",
+    "build": "next build && next export -o build",
     "start": "next start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
