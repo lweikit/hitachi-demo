@@ -1,0 +1,132 @@
+
+.fp-line-1 {
+    isolation:isolate;
+  }
+  .fp-line-2 {
+    opacity:0.3;
+    mix-blend-mode:multiply;
+  }
+  .fp-line-3 {
+    fill:url(#fp-gradient);
+  }
+  
+  .fp-text {
+    font-size: 0.5rem;
+    font-weight: 500;
+    fill: rgb(121,126,246);
+  }
+  
+  .gdp-1 {
+    isolation:isolate;
+  }
+  .gdp-circle {
+    fill:none;
+    stroke-miterlimit:10;
+    stroke-width:0.02rem;
+    stroke:url(#gdp-circle-gradient);
+    stroke-dasharray: 100;
+    stroke-dashoffset: 100;
+    animation: animate-gdp-circle 5s linear forwards;
+  }
+  @keyframes animate-gdp-circle { 
+    from {
+      stroke-dashoffset: 100;
+    }
+    to {
+      stroke-dashoffset: 200;
+    }
+  }
+  .gdp-line {
+    fill:none;
+    stroke-miterlimit:10;
+    stroke-width:0.02rem;
+    stroke:url(#gdp-line-gradient);
+    stroke-dasharray: 100;
+    stroke-dashoffset: 100;
+    animation: animate-gdp-line 5s linear forwards;
+    animation-delay: 5s;
+  }
+  @keyframes animate-gdp-line { 
+    from {
+      stroke-dashoffset: 100;
+    }
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+  
+  .gdp-h-two {
+    font-size: 0.35rem;
+    font-weight: 500;
+    fill: rgb(37,57,152);
+  }
+  .gdp-h-four {
+    font-size: 0.12rem;
+    font-weight: 500;
+    fill: rgb(37,57,152);
+  }
+  .gdp-p {
+    font-size: 0.12rem;
+    fill: rgb(37,57,152);
+  }
+  
+  .data-point {
+    height: 25vh;
+    display: flex;
+  }
+  
+  .side-data-point {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .side-data-point h4 {
+    font-size: 1rem;
+  }
+  
+  .side-data-point h1 {
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+  
+  .main-data-point {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* background-image: url(./../public/img/s1-p3-2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain; */
+  }
+  
+  .main-data-point h4 {
+    font-size: 1.5rem;
+  }
+  
+  .main-data-point h1 {
+    font-size: 2rem;
+    font-weight: 500;
+  }
+  
+  #data-left {
+    padding-left: 30%;
+  }
+  
+  #data-right {
+    padding-right: 30%;
+  }
+  
+  .section-one-part-three p {
+    color: black;
+  }
+  
+  

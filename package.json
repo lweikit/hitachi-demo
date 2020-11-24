@@ -1,33 +1,27 @@
 {
   "name": "hitachi",
-  "homepage": "https://lweikit.github.io/",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next export -o build",
+    "build": "next build && next export -o build && touch build/.nojekyll",
     "start": "next start",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build -t"
   },
   "dependencies": {
-    "@vx/axis": "0.0.198",
-    "@vx/geo": "0.0.199",
-    "@vx/gradient": "0.0.198",
-    "@vx/group": "0.0.198",
-    "@vx/mock-data": "0.0.198",
-    "@vx/responsive": "0.0.198",
-    "@vx/scale": "0.0.198",
-    "@vx/shape": "0.0.198",
-    "@vx/zoom": "0.0.199",
+    "@zeit/next-sass": "^1.0.1",
     "animate.css": "^4.1.1",
+    "animated-number-react": "^0.1.1",
     "bootstrap": "^4.5.3",
+    "lottie-web": "^5.7.4",
     "next": "^10.0.1",
     "react": "^16.13.1",
     "react-animate-on-scroll": "^2.1.5",
     "react-dom": "^16.13.1",
     "react-reveal": "^1.2.2",
     "reactstrap": "^8.7.1",
+    "sass": "^1.29.0",
     "topojson-client": "^3.1.0"
   },
   "devDependencies": {

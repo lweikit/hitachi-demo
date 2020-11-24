@@ -1,0 +1,63 @@
+@media only screen and (max-width: 768px) {
+  .main {
+    h1 {
+      font-size: 4rem;
+    }
+
+    h2 {
+      font-size: 3rem;
+    }
+
+    h4 {
+      font-size: 1rem;
+    }
+
+    p {
+      font-size: 1rem;
+    }
+  
+    .emphasis {
+      font-size: 1.5rem;
+    }
+  
+    .point {
+      font-size: 1.5rem;
+    }
+  }
+
+
+
+  .country-productivity {
+    position: relative;
+    width: 100%;
+    height: 25%;
+  }
+  #usa-productivity {
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    left: -20%;
+    top: 5%;
+  }
+  #asean-productivity {
+    position: absolute;
+    width: 40%;
+    height: 40%;
+    left: 27.5%;
+    top: 30%;
+  }
+  #germany-productivity {
+    position: absolute;
+    width: 65%;
+    height: 65%;
+    left: 32.5%;
+    top: 15%;
+  }
+  #china-productivity {
+    position: absolute;
+    width: 40%;
+    height: 40%;
+    left: 62.5%;
+    top: 30%;
+  }
+}
