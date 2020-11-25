@@ -7,7 +7,7 @@ export default function SectionThree() {
     <div id="section-three" className="section section-three">
       <Container fluid>
         <Row>
-          <Col sm={{ size: 10, offset: 1 }} md={{ size: 8, offset: 2}}>
+          <Col xs={{ size: 10, offset: 1 }} lg={{ size: 6, offset: 3 }}>
             <h4>CHALLENGES OF RACING UP</h4>
             <h2>THE INDUSTRY 4.0</h2>
             <h1>LADDER</h1>
@@ -16,7 +16,7 @@ export default function SectionThree() {
               With a renewed urgency to commit to Industry 4.0, ASEAN manufacturers are now rushing headlong into technological upgrades. 39% of manufacturers have implemented a nerve-centre, or control-tower, approach to increase end-to-end supply-chain transparency.
             </p>
 
-            <img src="img/s2-p1-1.svg" id="s2-p1-1" />
+            <img src="img/line-down.svg" className="line-down" />
 
             <p className="point">
               Around a quarter are fast tracking automation programs to stem worker shortages arising from COVID-19

@@ -5,7 +5,7 @@ export default function SectionFive() {
     <div id="section-five" className="section section-five">
       <Container fluid>
         <Row>
-          <Col sm={{ size: 10, offset: 1 }} md={{ size: 8, offset: 2}}>
+          <Col xs={{ size: 10, offset: 1 }} lg={{ size: 6, offset: 3 }}>
             <h2>Interested to learn more about Hitachi Smart Manufacturing capabilities?</h2>
 
             <br />
