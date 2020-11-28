@@ -5,7 +5,7 @@ export default function SectionFive() {
     <div id="section-five" className="section section-five">
       <Container fluid>
         <Row>
-          <Col xs={{ size: 10, offset: 1 }} lg={{ size: 6, offset: 3 }}>
+          <Col xs={{ size: 10, offset: 1 }} lg={{ size: 8, offset: 2 }}>
             <h2>Interested to learn more about Hitachi Smart Manufacturing capabilities?</h2>
 
             <br />
@@ -13,7 +13,7 @@ export default function SectionFive() {
 
             <div>
               <Row>
-                <Col md={{ size: 6 }}>
+                <Col lg={{ size: 6 }}>
                   <Row>
                     <Col>
                       <img src="img/s5-1.png" />
@@ -25,7 +25,7 @@ export default function SectionFive() {
                     </Col>
                   </Row>
                 </Col>
-                <Col md={{ size: 6 }}>
+                <Col lg={{ size: 6 }}>
                   <Row>
                     <Col>
                       <img src="img/s5-2.png" />
@@ -37,7 +37,7 @@ export default function SectionFive() {
                     </Col>
                   </Row>
                 </Col>
-                <Col md={{ size: 6 }}>
+                <Col lg={{ size: 6 }}>
                   <Row>
                     <Col>
                       <img src="img/s5-3.png" />
@@ -49,7 +49,7 @@ export default function SectionFive() {
                     </Col>
                   </Row>
                 </Col>
-                <Col md={{ size: 6 }}>
+                <Col lg={{ size: 6 }}>
                   <Row>
                     <Col>
                       <img src="img/s5-4.png" />

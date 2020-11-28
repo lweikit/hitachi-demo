@@ -41,10 +41,10 @@ export default function SectionOne() {
                 <h1>INDUSTRY 4.0</h1>
               </div>
 
-              <img src="img/s1-p2-bgl.svg" className="s1-p2-bgl"/>
-              <img src="img/s1-p2-bgr.svg" className="s1-p2-bgr"/>
               <div id="five-pillars"></div>
               <AseanGDP />
+              <img src="img/s1-p2-bgl.svg" className="s1-p2-bgl"/>
+              <img src="img/s1-p2-bgr.svg" className="s1-p2-bgr"/>
             </div>
 
             <div className="section part-three">

@@ -16,7 +16,7 @@ export default function SectionFour() {
               <h1>LUMADA</h1>
 
               <Row>
-                <Col lg={{ size: 8, offset: 4 }}>
+                <Col lg={{ size: 8, offset: 4 }} className="lg-left-border">
                   <p>
                     With a firm belief in the ASEAN's manufacturing future, Hitachi has taken the first step to set up Lumada Centre, in Thailand in 2018. Serving as a digital services hub, Lumada aims to equip Southeast Asian companies with IoT capabilities, big data analytics as they move up the Industry 4.0 ladder.
                   </p>
@@ -51,7 +51,7 @@ export default function SectionFour() {
             <h2 className="purple small-margin">&#8220;</h2>
 
             <p className="emphasis purple small-margin">
-              "Modern AI and machine learning allow manufacturers to work with real-time fata from individual components for targeted maintenance. Manufacturers can avoid unnecessary maintenance and pre-empt problems associated with unplanned downtime."
+              "Modern AI and machine learning allow manufacturers to work with real-time data from individual components for targeted maintenance. Manufacturers can avoid unnecessary maintenance and pre-empt problems associated with unplanned downtime."
             </p>
 
             <h4 className="purple small-margin">HITACHI EXECUTIVE</h4>
@@ -81,15 +81,6 @@ export default function SectionFour() {
             <br />
 
             <SolutionsSVG />
-
-            {/* <h3>Increase manufacturing productivity</h3>
-            <p>Analyse data collected from manufacturing sites to optimize factory operations</p>
-
-            <h3>Optimise logistics with data analytics</h3>
-            <p>Analyse traffic congestion, storage locations and delivery locations, & enable smart routing to save miles and deliver faster</p>
-
-            <h3>Predictive maintenance and remote assist</h3>
-            <p>Enabling predictive maintenance, real-time remote assistance and remote training scenarios for first-line workers, using HoloLens 2 and other smart devices</p> */}
           </Col>
         </Row>
       </Container>

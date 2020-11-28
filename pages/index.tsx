@@ -10,7 +10,6 @@ import SectionFive from './sections/SectionFive'
 
 
 export default function Home() {
-
   return (
     <div>
       <Head>

@@ -98,6 +98,11 @@ VISUAL
   text-align: left;
 }
 
+.lg-left-border {
+  border-left-style: solid;
+  border-left-width: 3px;
+}
+
 .bg {
   position: absolute;
   left: -50%;
@@ -185,13 +190,17 @@ VISUAL
     width: 50vw;
     right: -100%;
   }
-
-  .gdp-1 {isolation:isolate;}
+  
+  text {fill: $c_100_blue;}
+  .cls-1 {isolation:isolate;}
+  .gdp-h2 {font-size: 0.35rem;font-weight: 600;}
+  .gdp-h4 {font-size: 0.12rem;font-weight: 500;}
+  .gdp-p {font-size: 0.12rem;}
   .gdp-circle {
     fill:none;
     stroke-miterlimit:10;
     stroke-width:0.02rem;
-    stroke:url(#gdp-circle-gradient);
+    stroke:url(#part-two-gradient);
     stroke-dasharray: 100;
     stroke-dashoffset: 100;
     animation: animate-gdp-circle 5s linear forwards;
@@ -200,7 +209,7 @@ VISUAL
     fill:none;
     stroke-miterlimit:10;
     stroke-width:0.02rem;
-    stroke:url(#gdp-line-gradient);
+    stroke:url(#part-two-gradient-2);
     stroke-dasharray: 100;
     stroke-dashoffset: 100;
     animation: animate-gdp-line 5s linear forwards;
@@ -214,20 +223,6 @@ VISUAL
     from {stroke-dashoffset: 100;}
     to {stroke-dashoffset: 0;}
   }
-  .gdp-h2 {
-    font-size: 0.35rem;
-    font-weight: 500;
-  }
-  .gdp-h4 {
-    font-size: 0.12rem;
-    font-weight: 500;
-  }
-  .gdp-p {
-    font-size: 0.12rem;
-  }
-  text {
-    fill: $c_100_blue;
-  }
 }
   
 .part-three {
@@ -239,12 +234,30 @@ VISUAL
     left: -85%;
     z-index: -1;
   }
+
+  text{fill: $c_white;}
+  .cls-1{isolation:isolate;}
+  .cls-2{opacity:0.4;mix-blend-mode:multiply;}
+  .cls-3{fill:url(#part-three-gradient);}
+  .country{font-size: 15px;}
+  .percentage{font-size: 40px;}
+
+  .slick-slide.slick-active.slick-center{
+    transition: transform 0.5s ease-out;
+    transform: scale(1.25);
+  }
+  .slick-slide{
+    transition: transform 0.5s ease-out;
+    transform: scale(1);
+  }
+  // .slick-slide{
+  //   transform: scale(0);
+  // }
 }
 
 .part-four {
   color: $c_100_blue;
 
-  text{font-family:HelveticaNeue-Medium, Helvetica Neue;}
   .blue-fill{fill:#1e2f98;}
   .white-fill{fill:#f2f2f2;}
   .west-name{font-size: 15px;}
@@ -263,8 +276,12 @@ VISUAL
     );
   }
 
-  text{fill:#f2f2f2;font-family:HelveticaNeue-Medium, Helvetica Neue;font-size: 7px;}
-  .cls-1{fill:none;stroke-miterlimit:10;stroke-width:2px;stroke:url(#productivity-bar-gradient);}
+  text{fill:#f2f2f2;font-size: 7px;}
+  .cls-1,.cls-2,.cls-3,.cls-4{fill:none;stroke-miterlimit:10;stroke-width:2px;}
+  .cls-1{stroke:url(#part-five-gradient);}
+  .cls-2{stroke:url(#part-five-gradient-2);}
+  .cls-3{stroke:url(#part-five-gradient-3);}
+  .cls-4{stroke:url(#part-five-gradient-4);}
   .blue-fill{fill:#1e2f98;}
   .white-fill{fill:#f2f2f2;}
 }
@@ -288,10 +305,10 @@ VISUAL
   .svg {width: 75%;}
   .cls-1{isolation:isolate;}
   .cls-2{opacity:0.3;mix-blend-mode:multiply;}
-  .cls-3{fill:none;stroke-miterlimit:10;stroke-width:3px;stroke:url(#linear-gradient);}
+  .cls-3{fill:none;stroke-miterlimit:10;stroke-width:3px;stroke:url(#section-three-gradient);}
   .challenges-h {font-size: 1.5rem;}
   .challenges-p {font-size: 0.75rem;}
-  .challenges-b {font-size: 0.5rem;}
+  .challenges-b {font-size: 0.75rem;}
 }
 
 .section-four {
@@ -321,23 +338,23 @@ VISUAL
   }
 
   text {fill: $c_100_blue;}
-  .svg{width: 50%;}
+  .svg{width: 100%;}
   .cls-1{isolation:isolate;}
   .cls-2{opacity:0.3;mix-blend-mode:multiply;}
-  .cls-3,.cls-4,.cls-5{fill:none;stroke-miterlimit:10;stroke-width:3px;}
-  .cls-3{stroke:url(#linear-gradient);}
-  .cls-4{stroke:url(#linear-gradient-2);}
-  .cls-5{stroke:url(#linear-gradient-3);}
-  .challenges-h {font-size: 1.5rem;}
-  .challenges-p {font-size: 0.75rem;}
+  .cls-3,.cls-4,.cls-5,.cls-6,.cls-7{fill:none;stroke-miterlimit:10;stroke-width:3px;}
+  .cls-3{stroke:url(#section-four-gradient);}
+  .cls-4{stroke:url(#section-four-gradient-2);}
+  .cls-5{stroke:url(#section-four-gradient-3);}
+  .cls-6{stroke:url(#section-four-gradient-4);}
+  .cls-7{stroke:url(#section-four-gradient-5);}
+  .solutions-h {font-size: 1.5rem;}
+  .solutions-p {font-size: 0.75rem;}
 }
 
 .section-five {
   color: $c_white;
 
-  img {
-    width: 200px;
-  }
+  img {width: 200px;}
 }
 
 .video-container {
