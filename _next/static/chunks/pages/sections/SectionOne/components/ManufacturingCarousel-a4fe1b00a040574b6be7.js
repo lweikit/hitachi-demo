@@ -1,1 +1,0 @@
-_N_E=(window.webpackJsonp_N_E=window.webpackJsonp_N_E||[]).push([[22],{AVkE:function(n,o,_){(window.__NEXT_P=window.__NEXT_P||[]).push(["/sections/SectionOne/components/ManufacturingCarousel",function(){return _("9pvq")}])}},[["AVkE",0,1,3]]]);
