@@ -38,6 +38,10 @@
     padding: 3rem 0rem;
   }
 
+  .space-div {
+    margin: 0.5rem 0rem;
+  }
+
   .align-left {
     text-align: center;
   }
@@ -53,7 +57,7 @@
 
   .side-by-side {
     h2 {font-size: 2rem;}
-    h4 {font-size: 0.5rem;}
+    h4 {font-size: 0.75rem;}
   }
 
   .line-down {
@@ -70,6 +74,9 @@
       width: 50vw;
       right: -50%;
     }
+
+    .desktop {display: none;}
+    .mobile {display: block; text-anchor: middle;}
   }
 
   .part-three {
@@ -79,6 +86,20 @@
       left: -35%;
       z-index: -1;
     }
+
+    .slick-slide.slick-active.slick-center{
+      transition: transform 0.5s ease-out;
+      transform: scale(1);
+    }
+    .slick-slide{
+      transition: transform 0.5s ease-out;
+      transform: scale(0);
+      padding: 0rem 0rem;
+    }
+  }
+
+  .section-three {
+    .svg {width: 100%;}
   }
 
   .section-four {
@@ -93,6 +114,10 @@
       right: -80%;
       top: 10%;
     }
+
+    .svg {width: 100%;}
+    .desktop {display: none;}
+    .mobile {display: block;}
   }
 
   .section-five {
