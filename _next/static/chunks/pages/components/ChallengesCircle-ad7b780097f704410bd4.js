@@ -1,0 +1,1 @@
+_N_E=(window.webpackJsonp_N_E=window.webpackJsonp_N_E||[]).push([[16],{Qetd:function(n,e,o){"use strict";var t=Object.assign.bind(Object);n.exports=t,n.exports.default=n.exports},jD1Y:function(n,e,o){(window.__NEXT_P=window.__NEXT_P||[]).push(["/components/ChallengesCircle",function(){return o("RUOW")}])}},[["jD1Y",0,1,5]]]);
