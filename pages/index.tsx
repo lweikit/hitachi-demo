@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import { Row, Col, Container } from 'reactstrap'
-import 'bootstrap/dist/css/bootstrap.min.css'
 
 import NavBar from './sections/NavBar'
 import SectionOnePartOne from './sections/SectionOnePartOne'

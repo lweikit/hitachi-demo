@@ -1,13 +1,13 @@
-import { Container, Row, Col } from 'reactstrap'
+import { Row, Col } from 'reactstrap'
+
+import styles from './styles/SectionFive.module.scss'
 
 export default function SectionFive() {
   return (
-    <div id="section-five" className="section section-five">
+    <div id="section-five" className={`section ${styles['section-five']}`}>
       <h2>Interested to learn more about Hitachi Smart Manufacturing capabilities?</h2>
 
-      <br />
-      <br />
-
+      <div className="space-div" />
       <Row>
         <Col lg={{ size: 6 }}>
           <Row>

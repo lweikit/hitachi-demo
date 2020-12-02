@@ -1,0 +1,8 @@
+@import "../../../styles/utils.scss";
+
+@mixin text {fill: $c_white;text-anchor: middle;}
+.country {@include text;font-size: 15px;}
+.percentage {@include text;font-size: 40px;}
+.isolate {isolation:isolate;}
+.shadows {opacity:0.4;mix-blend-mode:multiply;}
+.circle {fill:url(#manufacturing-carousel-gradient);}

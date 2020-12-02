@@ -1,8 +1,10 @@
-export default function LineDown() {
+import styles from './styles/LineDown.module.scss'
+
+export default function LineDown({ delay=false }) {
   return (
-    <svg className="line-down" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 1.8 81.9">
+    <svg className={styles['line-svg']} xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 1.8 81.9">
       <defs>
-        <linearGradient id="linear-gradient" x1="0" y1="81.9" x2="0" y2="0" gradientUnits="userSpaceOnUse">
+        <linearGradient id="line-down-gradient" x1="0" y1="81.9" x2="0" y2="0" gradientUnits="userSpaceOnUse">
           <stop offset="0" stop-color="#fff"/>
           <stop offset="0.09" stop-color="#f6f6ff" stop-opacity="0.97"/>
           <stop offset="0.23" stop-color="#dcdcff" stop-opacity="0.89"/>
@@ -12,10 +14,8 @@ export default function LineDown() {
           <stop offset="1" stop-color="blue" stop-opacity="0.2"/>
         </linearGradient>
       </defs>
-      <g id="Layer_2" data-name="Layer 2">
-        <g id="Layer_1-2" data-name="Layer 1">
-          <line className="cls-1" y1="0" y2="81.9"/>
-        </g>
+      <g>
+        <line className={styles[delay ? 'line-delay' : 'line']} y1="0" y2="81.9"/>
       </g>
     </svg>
   )

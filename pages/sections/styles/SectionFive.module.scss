@@ -1,0 +1,9 @@
+@import "../../../styles/utils.scss";
+
+.section-five {
+  color: $c_white;
+  img {
+    @include desktop { width: 200px; }
+    @include mobile { width: 100px; }
+  }
+}

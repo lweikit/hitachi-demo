@@ -1,6 +1,5 @@
-import '../styles/lg.scss'
-import '../styles/md.scss'
-import '../styles/sm.scss'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import '../styles/global.scss'
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />

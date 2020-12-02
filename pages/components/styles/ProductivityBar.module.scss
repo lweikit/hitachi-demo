@@ -1,0 +1,25 @@
+@mixin bar-label ($gradient-url) {
+  fill:none; 
+  stroke-miterlimit:10; 
+  stroke-width:2px; 
+  stroke: url($gradient-url);
+}
+.sea-label {@include bar-label('#productivity-bar-gradient')}
+.deu-label {@include bar-label('#productivity-bar-gradient-2')}
+.usa-label {@include bar-label('#productivity-bar-gradient-3')}
+.chn-label {@include bar-label('#productivity-bar-gradient-4')}
+.blue-fill {fill:#1e2f98;}
+.white-text {fill:#f2f2f2; font-size: 7px;}
+.percentage {text-anchor: end;}
+.hidden {opacity: 0; visibility: hidden; transform: translateY(50%);}
+.dot {animation: move-up 1s ease forwards;}
+.bar {animation: move-up 1s ease forwards 0.5s;}
+.lin {animation: move-up 1s ease forwards 1.0s;}
+.num {animation: move-up 1s ease forwards 1.5s;}
+@keyframes move-up {
+  to {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+}
