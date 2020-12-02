@@ -1,1 +1,0 @@
-_N_E=(window.webpackJsonp_N_E=window.webpackJsonp_N_E||[]).push([[24],{Qetd:function(n,t,o){"use strict";var e=Object.assign.bind(Object);n.exports=e,n.exports.default=n.exports},zZbs:function(n,t,o){(window.__NEXT_P=window.__NEXT_P||[]).push(["/sections/SectionOne/components/ProductivityBar",function(){return o("PHte")}])}},[["zZbs",0,1,5]]]);
