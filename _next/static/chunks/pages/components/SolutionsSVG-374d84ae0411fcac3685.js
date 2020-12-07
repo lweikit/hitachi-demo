@@ -1,1 +1,0 @@
-_N_E=(window.webpackJsonp_N_E=window.webpackJsonp_N_E||[]).push([[22],{JxfX:function(n,o,t){(window.__NEXT_P=window.__NEXT_P||[]).push(["/components/SolutionsSVG",function(){return t("+7lh")}])},Qetd:function(n,o,t){"use strict";var s=Object.assign.bind(Object);n.exports=s,n.exports.default=n.exports}},[["JxfX",0,1,4]]]);
