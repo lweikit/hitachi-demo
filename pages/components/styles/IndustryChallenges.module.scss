@@ -1,0 +1,17 @@
+@import "../../../styles/utils.scss";
+
+.svg {
+  @include desktop { height: 20vh; }
+  @include mobile { height: 10vh; }
+  margin: 3rem 0rem;
+  animation: fade-in 1s ease-out forwards;
+}
+.description {
+  height: 200px;
+  margin: 5rem 0rem;
+  animation: fade-in 1s ease-out forwards;
+}
+@keyframes fade-in {
+  from { opacity: 0; visibility: hidden; }
+  to { opacity: 1; visibility: visible; }
+}

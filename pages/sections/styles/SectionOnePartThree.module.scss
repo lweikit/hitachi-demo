@@ -1,12 +1,11 @@
 @import "../../../styles/utils.scss";
 
 .part-three {
-  color: $c_white;
+  color: $c_dark_blue;
 }
 .bg {
-  width: 100vw;
   position: absolute;
-  @include desktop { left: -85%; }
-  @include mobile { left: -35%; }
+  @include desktop { width: 50vw; }
+  @include mobile { width: 80vw; }
   z-index: -1;
 }

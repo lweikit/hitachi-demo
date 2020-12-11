@@ -1,62 +1,77 @@
 import { Row, Col } from 'reactstrap'
 import Fade from 'react-reveal/Fade'
 
-import AseanGDP from '../components/AseanGDP'
 import styles from './styles/SectionOnePartTwo.module.scss'
 
 export default function SectionOnePartTwo() {
   return (
     <div className={`section ${styles['part-two']}`}>
-      <Fade top cascade>
-        <div className="align-left">
-          <h4>IN 2019, ASEAN COUNTRIES WERE JUST STARTING TO EMBRACE</h4>
-          <h1>INDUSTRY 4.0</h1>
-        </div>
-
-        <div className="space-div" />
-        <div>
-          <div className="desktop">
+      <Fade top>
+        <h3>In 2019, ASEAN countries were just starting to embrace Industry 4.0</h3>
+        <h4>5 key components of Industry 4.0</h4>
+          
+        <Row>
+          <Col xs={{ size: 2 }} lg={{ size: 1 }}>
+            <object type="image/svg+xml" data="svg/mouseover.svg" />
+          </Col>
+          <Col>
             <Row>
               <Col>
-                <object type="image/svg+xml" data="img/s1-p2-1.svg" />
+                <object type="image/svg+xml" data="svg/internet-of-things.svg" />
               </Col>
               <Col>
-                <object type="image/svg+xml" data="img/s1-p2-2.svg" />
+                <object type="image/svg+xml" data="svg/big-data.svg" />
               </Col>
               <Col>
-                <object type="image/svg+xml" data="img/s1-p2-3.svg" />
-              </Col>
-              <Col>
-                <object type="image/svg+xml" data="img/s1-p2-4.svg" />
-              </Col>
-              <Col>
-                <object type="image/svg+xml" data="img/s1-p2-5.svg" />
+                <object type="image/svg+xml" data="svg/cloud-based-technologies.svg" />
               </Col>
             </Row>
-          </div>
-          <div className="mobile">
+          </Col>
+          <Col xs={{ size: 2 }} lg={{ size: 1 }}>
+            <object type="image/svg+xml" data="svg/mouseover.svg" />
+          </Col>
+        </Row>
+        <Row>
+          <Col xs={{ size: 2 }} lg={{ size: 1 }}>
+            <object type="image/svg+xml" data="svg/mouseover.svg" />
+          </Col>
+          <Col>
             <Row>
               <Col xs={{ size: 4, offset: 2 }}>
-                <object type="image/svg+xml" data="img/s1-p2-1.svg" />
+                <object type="image/svg+xml" data="svg/artificial-intelligence.svg" />
               </Col>
-              <Col xs={{ size: 4 }}>
-                <object type="image/svg+xml" data="img/s1-p2-2.svg" />
-              </Col>
-              <Col xs={{ size: 4 }}>
-                <object type="image/svg+xml" data="img/s1-p2-3.svg" />
-              </Col>
-              <Col xs={{ size: 4 }}>
-                <object type="image/svg+xml" data="img/s1-p2-4.svg" />
-              </Col>
-              <Col xs={{ size: 4 }}>
-                <object type="image/svg+xml" data="img/s1-p2-5.svg" />
+              <Col xs={{ size: 4}}>
+                <object type="image/svg+xml" data="svg/advanced-manufacturing.svg" />
               </Col>
             </Row>
-          </div>
-        </div>
-        <div className="space-div" />
+          </Col>
+          <Col xs={{ size: 2 }} lg={{ size: 1 }}>
+            <object type="image/svg+xml" data="svg/mouseover.svg" />
+          </Col>
+        </Row>
 
-        <AseanGDP />
+        <h4>How critical is manufacturing to ASEAN?</h4>
+        
+        <Row>
+          <Col xs={{ size: 2 }} lg={{ size: 1 }}>
+            <object type="image/svg+xml" data="svg/mouseover.svg" />
+          </Col>
+          <Col>
+            <Row>
+              <Col>
+                <object type="image/svg+xml" data="svg/manufacturing-contribution.svg" />
+              </Col>
+            </Row>
+          </Col>
+          <Col xs={{ size: 2 }} lg={{ size: 1 }}>
+            <object type="image/svg+xml" data="svg/mouseover.svg" />
+          </Col>
+        </Row>
+        <p>
+          Home to the sixth largest global economy in 2019 at around US$3 trillion, 
+          ASEAN is projected to grow at an average of 4.9 percent per annum for the next decade.
+          As a core growth driver, manufacturing contributes about US$670 billions or 21 percent to the region's GDP in 2018.
+        </p>
       </Fade>
       <img src="img/s1-p2-bgl.svg" className={styles['bg-left']}/>
       <img src="img/s1-p2-bgr.svg" className={styles['bg-right']}/>

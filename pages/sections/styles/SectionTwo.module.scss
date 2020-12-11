@@ -17,7 +17,7 @@
 .hidden {opacity: 0; visibility: hidden;}
 .seq1-bg {animation: fade-in 2s forwards, blend-in 2s forwards 2s;}
 .seq2-video {animation: fade-in 1s forwards 4s;}
-.seq3-p {animation: fade-in 1s forwards 5s;}
+.seq3-h {animation: fade-in 1s forwards 5s;}
 .seq4-sbs {animation: fade-in 1s forwards 6s}
 @keyframes fade-in {to {opacity: 1; visibility: visible;}}
-@keyframes blend-in {to {opacity: 0.1;}}
+@keyframes blend-in {from {opacity: 1;}to {opacity: 0.1;}}

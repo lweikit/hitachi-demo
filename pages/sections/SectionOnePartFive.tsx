@@ -1,56 +1,58 @@
+import { Row, Col } from 'reactstrap'
 import TrackVisility from 'react-on-screen'
 
 import LineDown from '../components/LineDown'
-import ProductivityBar from '../components/ProductivityBar'
 import styles from './styles/SectionOnePartFive.module.scss'
 
 export default function SectionOnePartFive() {
   return (
     <div className={`section ${styles['part-five']}`}>
-      <div className="align-left">
-        <h4>CHANGE IN MANUFACTURING</h4>
-        <h2>PRODUCTIVITY</h2>
-        <h1>2008 - 2017</h1>
-      </div>
+      <h4>Gains in Manufacturing Productivity</h4>
+      <h5>From 2008 to 2017</h5>
+
+      <Row>
+        <Col xs={{ size: 2 }} lg={{ size: 1 }}>
+          <object type="image/svg+xml" data="svg/mouseover.svg" />
+        </Col>
+        <Col>
+          <Row>
+            <Col>
+              <object type="image/svg+xml" data="svg/productivity-2.svg" />
+            </Col>
+          </Row>
+        </Col>
+        <Col xs={{ size: 2 }} lg={{ size: 1 }}>
+          <object type="image/svg+xml" data="svg/mouseover.svg" />
+        </Col>
+      </Row>
 
       <div className="space-div" />
-      <TrackVisility once>
-        {
-          ({ isVisible }) => <ProductivityBar isVisible={isVisible} />
-        }
-      </TrackVisility>
       <div className="space-div" />
-
       <TrackVisility once>
         {
           ({ isVisible }) => {
-            const oneClass   = `${styles['hidden']} ${isVisible && styles['seq1-bg']} ${styles['bg']} bg`
-            const twoClass   = `${styles['hidden']} ${isVisible && styles['seq2-p']}`
-            const threeClass = `${styles['hidden']} ${isVisible && styles['seq3-h']}`
-            const fourClass  = `${styles['hidden']} ${isVisible && styles['seq4-line']}`
-            const fiveClass  = `${styles['hidden']} ${isVisible && styles['seq5-p']}`
+            const bgClass   = `${styles['hidden']} ${isVisible && styles['seq1-bg']} ${styles['bg']} bg`
+            const pClass    = `${styles['hidden']} ${isVisible && styles['seq2-p']}`
+            const lineClass = `${styles['hidden']} ${isVisible && styles['seq3-line']}`
+            const hClass    = `${styles['hidden']} ${isVisible && styles['seq4-p']}`
             return (
               <div>
-                <img src="img/s1-p5-bg.jpg" className={oneClass} />
-                <p className={twoClass}>
-                  According to McKinsey, ASEAN could capture productivity gains worth US$216 billion to US$627 billion by moving up the Industry 4.0 technology ladder. Still, the pace remains slow and sluggish. A 2018 survey of ASEAN manufacturers showed that only 15 to 25 percent have fully adopted Industry 4.0 and related technologies.
+                <img src="img/s1-p5-bg.jpg" className={bgClass} />
+                <p className={pClass}>
+                  Industry 4.0 promises to change that by escalating the region's manufacturing value.
+                  However, the current pace of adoption lag behind China, which has invested heavily in automation and robots in the past 10 years.
+                  This move has enabled Chinese productivity to grow by 84%, compared with 38% on average for ASEAN.
                 </p>
           
-                <div className={threeClass}>
-                  <h4>UP TO</h4>
-                  <h2>US$ 627 BILLION</h2>
-                  <h4>WORTH OF PRODUCTIVITY GAINS FOR ASEAN</h4>
-                </div>
-          
                 <div className="space-div" />
-                <div className={fourClass}>
+                <div className={lineClass}>
                   {
                     isVisible && <LineDown delay={true}/>
                   }
                 </div>
                 <div className="space-div" />
           
-                <h2 className={fiveClass}>THEN, COVID-19 CAME AND CHANGED EVERYTHING</h2>
+                <h3 className={hClass}>THEN, COVID-19 CAME AND CHANGED EVERYTHING</h3>
               </div>
             )
           }

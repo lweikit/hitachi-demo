@@ -1,3 +1,5 @@
+@import "../../../styles/utils.scss";
+
 .part-one {
   padding: 0rem 0rem;
   height: 100vh;
@@ -6,4 +8,9 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
+}
+.light-title {
+  @include desktop { font-size: 3rem; }
+  @include mobile { font-size: 2rem; }
+  font-weight: 300;
 }

@@ -7,6 +7,7 @@ export default function NavBar() {
   const toggle = () => setIsOpen(!isOpen)
 
   return (
+    // <Navbar dark fixed="top" expand="lg" style={{backgroundColor: '#1E3998'}}>
     <Navbar dark fixed="top" expand="lg">
       <Collapse isOpen={isOpen} navbar>
         <Nav navbar>
@@ -14,13 +15,13 @@ export default function NavBar() {
             <NavLink tag={Link} to="section-one" spy={true} smooth={true}>ASEAN Manufacturing</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink tag={Link} to="section-two" spy={true} smooth={true}>Transformation</NavLink>
+            <NavLink tag={Link} to="section-two" spy={true} smooth={true}>Urgent Transformation</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink tag={Link} to="section-three" spy={true} smooth={true}>Indstry 4.0</NavLink>
+            <NavLink tag={Link} to="section-three" spy={true} smooth={true}>Industry 4.0 Challenges</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink tag={Link} to="section-four" spy={true} smooth={true}>Hitachi Lumada</NavLink>
+            <NavLink tag={Link} to="section-four" spy={true} smooth={true}>Hitachi's Lumada</NavLink>
           </NavItem>
           <NavItem>
             <NavLink tag={Link} to="section-five" spy={true} smooth={true}>Smart Manufacturing</NavLink>
