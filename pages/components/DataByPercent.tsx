@@ -14,7 +14,7 @@ export default function DataByPercent({ topText, bottomText, topNumber, bottomNu
               {
                 ({ isVisible }) => isVisible && <CountUp 
                   end={topNumber} 
-                  suffix=" %"
+                  suffix="%"
                   duration={3}
                   useEasing={false}
                   delay={delay}
@@ -37,7 +37,7 @@ export default function DataByPercent({ topText, bottomText, topNumber, bottomNu
               {
                 ({ isVisible }) => isVisible && <CountUp 
                   end={bottomNumber} 
-                  suffix=" %"
+                  suffix="%"
                   duration={1.35}
                   useEasing={false}
                   delay={delay}

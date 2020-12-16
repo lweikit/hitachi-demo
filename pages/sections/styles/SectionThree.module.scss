@@ -3,3 +3,9 @@
 .section-three {
   color: $c_dark_blue;
 }
+.underline {
+  @include desktop { width: 390px; }
+  @include mobile { width: 195px; }
+  margin: 0rem auto 0.5rem;
+  border-top: 1px solid $c_white;
+}

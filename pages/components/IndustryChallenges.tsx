@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Row, Col } from 'reactstrap'
 import Slider from 'rc-slider'
 
 import styles from './styles/IndustryChallenges.module.scss'
@@ -6,9 +7,9 @@ import styles from './styles/IndustryChallenges.module.scss'
 export default function IndustryChallenges() {
   const [activeIndex, setActiveIndex] = useState(0)
   const marks = {
-    0: 'Data Living in Silos',
-    1: 'Lack of Skilled Managers',
-    2: 'Cybersecurity Threats',
+    0: 'Data living in silos',
+    1: 'Lack of skilled managers',
+    2: 'Cybersecurity threats',
   }
   return (
     <div>
@@ -21,23 +22,27 @@ export default function IndustryChallenges() {
       { 
         activeIndex == 2 && <object className={styles['svg']} type="image/svg+xml" data="svg/cybersecurity-threats.svg"/>
       }
-      <Slider 
-        className={styles['slider']}
-        min={0} 
-        max={2} 
-        marks={marks} 
-        included={false} 
-        value={activeIndex} 
-        onChange={setActiveIndex}
-        railStyle={{backgroundColor: '#1CA7EC'}}
-        dotStyle={{borderColor: '#1CA7EC', backgroundColor: '#1CA7EC'}}
-        handleStyle={{borderColor: '#1E3998', backgroundColor: '#1E3998'}}
-      />
+      <Row>
+        <Col xs={{ size: 10, offset: 1 }} lg={{size: 8, offset: 2 }}>
+          <Slider 
+            className={styles['slider']}
+            min={0} 
+            max={2} 
+            marks={marks} 
+            included={false} 
+            value={activeIndex} 
+            onChange={setActiveIndex}
+            railStyle={{backgroundColor: '#1CA7EC'}}
+            dotStyle={{borderColor: '#1CA7EC', backgroundColor: '#1CA7EC'}}
+            handleStyle={{borderColor: '#1E3998', backgroundColor: '#1E3998'}}
+          />
+        </Col>
+      </Row>
       {
         activeIndex == 0 && (
           <div className={styles['description']}>
             <p>
-              According to a IDC study, manufacturing data is rarely housed in a common data lake or system, but typiccaly in siloed systems.
+              According to a IDC study, manufacturing data is rarely housed in a common data lake or system, but typically in siloed systems.
             </p>
             <p>
               Operators and engineers must manually piece together information from these siloed systems in a tedious and time-consuming process - which naturally hampers innovation and discourages collaboration in a company.

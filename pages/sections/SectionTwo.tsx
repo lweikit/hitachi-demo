@@ -7,13 +7,14 @@ import styles from './styles/SectionTwo.module.scss'
 export default function SectionTwo() {
   return (
     <div id="section-two" className={`section ${styles['section-two']}`}>
-      <h2>Urgent Need For</h2>
+      <h2>Urgent need for</h2>
+      <div className={styles['underline']} />
       <h1>TRANSFORMATION</h1>
 
       <div className="space-div" />
       <TrackVisility once>
         {
-          ({ isVisible }) => isVisible && <LineDown />
+          ({ isVisible }) => isVisible && <LineDown type="teal" />
         }
       </TrackVisility>
       <div className="space-div" />
@@ -27,6 +28,8 @@ export default function SectionTwo() {
         Modernising these capabilities will be essential for manufacturers to recover from the pandemic quickly.
       </p>
       
+      <div className="space-div" />
+      <div className="space-div" />
       <TrackVisility once>
         {
           ({ isVisible }) => {
@@ -42,11 +45,11 @@ export default function SectionTwo() {
                   {/* <iframe src="https://www.youtube-nocookie.com/embed/nqmpddNspSE" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe> */}
                 </div>
 
-                <div className="space-div" />
-                <h3 className={hClass}>
-                  To put it simply, COVID-19 is spearheading this sector towards urgent transformation.
-                </h3>
-                <div className="space-div" />
+                <div className={hClass}>
+                  <h3>
+                    To put it simply, COVID-19 is spearheading this sector towards urgent transformation.
+                  </h3>
+                </div>
 
                 <div className={sbsClass}>
                   {
@@ -55,7 +58,7 @@ export default function SectionTwo() {
                       bottomText="seek more efficient data management solutions such as robotic process automation (RPA)"
                       topNumber={92}
                       bottomNumber={42}
-                      delay={6}
+                      delay={5}
                     />
                   }
                 </div>

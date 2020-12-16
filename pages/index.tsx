@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import { Row, Col, Container } from 'reactstrap'
+import { Container, Row, Col } from 'reactstrap'
 
 import NavBar from './sections/NavBar'
 import SectionOnePartOne from './sections/SectionOnePartOne'
@@ -23,30 +23,52 @@ export default function Home() {
 
       <main className="main">
         <NavBar />
-        <div className="gradient-bg-1">
-          <Container fluid>
+        <div id="section-one">
+          <div className="gradient-bg-1">
+            <Container>
+              <Row>
+                <Col xs={{ size: 10, offset: 1 }}>
+                  <SectionOnePartOne />
+                  <SectionOnePartTwo />
+                </Col>
+              </Row>
+            </Container>
+          </div>
+          <div className="gradient-bg-2">
+            <Container>
+              <Row>
+                <Col xs={{ size: 10, offset: 1 }}>
+                  <SectionOnePartThree />
+                  <SectionOnePartFour />
+                  <SectionOnePartFive />
+                </Col>
+              </Row>
+            </Container>
+          </div>
+        </div>
+        <div className="gradient-bg-3">
+          <Container>
             <Row>
-              <Col xs={{ size: 10, offset: 1 }} lg={{ size: 6, offset: 3 }}>
-                <SectionOnePartOne />
-                <SectionOnePartTwo />
-                <SectionOnePartThree />
-                <SectionOnePartFour />
-                <SectionOnePartFive />
+              <Col xs={{ size: 10, offset: 1 }}>
+                <SectionTwo />
               </Col>
             </Row>
           </Container>
         </div>
-        <div className="gradient-bg-2">
-          <Container fluid>
+        <div className="gradient-bg-4">
+          <Container>
             <Row>
-              <Col xs={{ size: 10, offset: 1 }} lg={{ size: 6, offset: 3 }}>
-                <SectionTwo />
+              <Col xs={{ size: 10, offset: 1 }}>
                 <SectionThree />
-                <SectionFour />
               </Col>
             </Row>
+          </Container>
+        </div>
+        <div className="gradient-bg-5">
+          <Container>
             <Row>
-              <Col xs={{ size: 10, offset: 1 }} lg={{ size: 8, offset: 2 }}>
+              <Col xs={{ size: 10, offset: 1 }}>
+                <SectionFour />
                 <SectionFive />
               </Col>
             </Row>

@@ -5,13 +5,13 @@
 }
 .bg-left {
   position: absolute;
-  width: 50vw;
+  width: 100%;
   @include desktop { left: -100%; }
-  @include mobile { left: -50% ; }
+  @include mobile { left: -75% ; }
 }
 .bg-right {
   position: absolute;
-  width: 50vw;
+  width: 100%;
   @include desktop { right: -100%; }
-  @include mobile { right: -50%; }
+  @include mobile { right: -75%; }
 }

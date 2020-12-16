@@ -1,6 +1,10 @@
 import styles from './styles/LineDown.module.scss'
 
-export default function LineDown({ delay=false }) {
+export default function LineDown({ type }) {
+  const lineClass = `${
+    type === 'delay' ? styles['line-delay'] : 
+    type === 'teal' ? styles['line-teal'] : styles['line-blue'] 
+  }`
   return (
     <svg className={styles['line-svg']} xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 1.8 81.9">
       <defs>
@@ -15,7 +19,7 @@ export default function LineDown({ delay=false }) {
         </linearGradient>
       </defs>
       <g>
-        <line className={styles[delay ? 'line-delay' : 'line']} y1="0" y2="81.9"/>
+        <line className={lineClass} y1="0" y2="81.9"/>
       </g>
     </svg>
   )

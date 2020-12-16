@@ -1,3 +1,11 @@
+@import "../../../styles/utils.scss";
+
 .part-four {
   color: rgb(30, 57, 152);
+}
+.underline {
+  @include desktop { width: 500px; }
+  @include mobile { width: 250px; }
+  margin: 0 auto 0.5rem;
+  border-top: 1px solid $c_white;
 }

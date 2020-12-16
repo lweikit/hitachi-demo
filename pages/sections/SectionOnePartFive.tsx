@@ -7,25 +7,28 @@ import styles from './styles/SectionOnePartFive.module.scss'
 export default function SectionOnePartFive() {
   return (
     <div className={`section ${styles['part-five']}`}>
-      <h4>Gains in Manufacturing Productivity</h4>
-      <h5>From 2008 to 2017</h5>
+      <h4>Gains in manufacturing productivity</h4>
+      <div className={styles['underline']} />
 
       <Row>
         <Col xs={{ size: 2 }} lg={{ size: 1 }}>
           <object type="image/svg+xml" data="svg/mouseover.svg" />
         </Col>
         <Col>
-          <Row>
-            <Col>
-              <object type="image/svg+xml" data="svg/productivity-2.svg" />
-            </Col>
-          </Row>
+          <h5>From 2008 to 2017</h5>
         </Col>
         <Col xs={{ size: 2 }} lg={{ size: 1 }}>
           <object type="image/svg+xml" data="svg/mouseover.svg" />
         </Col>
       </Row>
 
+      <Row>
+        <Col>
+          <object type="image/svg+xml" data="svg/productivity-2.svg" />
+        </Col>
+      </Row>
+
+      <div className="space-div" />
       <div className="space-div" />
       <div className="space-div" />
       <TrackVisility once>
@@ -44,13 +47,11 @@ export default function SectionOnePartFive() {
                   This move has enabled Chinese productivity to grow by 84%, compared with 38% on average for ASEAN.
                 </p>
           
-                <div className="space-div" />
                 <div className={lineClass}>
                   {
-                    isVisible && <LineDown delay={true}/>
+                    isVisible && <LineDown type="delay"/>
                   }
                 </div>
-                <div className="space-div" />
           
                 <h3 className={hClass}>THEN, COVID-19 CAME AND CHANGED EVERYTHING</h3>
               </div>

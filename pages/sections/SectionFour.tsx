@@ -19,14 +19,17 @@ export default function SectionFour() {
                 <img src="img/s4-bgl.svg" className={bglClass} />
                 <img src="img/s4-bgr.svg" className={bgrClass} />
                 <div className={hClass}>
-                  <h2>Building Smart Factories With</h2>
+                  <h2>Building smart factories with</h2>
+                  <div className={styles['underline']} />
                   <h1>HITACHI'S LUMADA</h1>
                 </div>
 
-                <p className={pClass}>
-                  With a firm belief in the ASEAN's manufacturing future, Hitachi has taken the first step to set up Lumada Centre, in Thailand in 2018. 
-                  Serving as a digital services hub, Lumada aims to equip Southeast Asian companies with IoT capabilities, big data analytics as they move up the Industry 4.0 ladder.
-                </p>
+                <div className={pClass}>
+                  <p>
+                    With a firm belief in the ASEAN's manufacturing future, Hitachi has taken the first step to set up Lumada Centre, in Thailand in 2018. 
+                    Serving as a digital services hub, Lumada aims to equip Southeast Asian companies with IoT capabilities, big data analytics as they move up the Industry 4.0 ladder.
+                  </p>
+                </div>
 
                 <div className={videoClass}>
                   {/* <iframe src="https://www.youtube-nocookie.com/embed/nqmpddNspSE" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe> */}
@@ -36,6 +39,8 @@ export default function SectionFour() {
           }
         }
       </TrackVisility>
+
+      <div className="space-div" />
       <div className="space-div" />
 
       <div>
@@ -54,6 +59,7 @@ export default function SectionFour() {
       </p>
 
       <div className="space-div" />
+      <div className="space-div" />
 
       <div className={styles['quote-open']}>&#8220;</div>
 
@@ -66,15 +72,23 @@ export default function SectionFour() {
       <div className={styles['quote-by']}>HITACHI EXECUTIVE</div>
 
       <div className="space-div" />
+      <div className="space-div" />
+
       <p>
         Besides enabling smart factories, Hitachi also aims to elevate the logistics sector by incorporating smart technologies across the entire logistics and delivery network.
       </p>
+
+      <div className="space-div" />
+      <div className="space-div" />
       <div className="space-div" />
       <div className="space-div" />
 
       <h3>
-        In 2019, Hitachi rolled out a vehicle sharing service in Thailand.
+        In 2019, Hitachi rolled out a sharing service for commercial vehicles in Thailand.
       </h3>
+
+      <div className="space-div" />
+      <div className="space-div" />
 
       <p>
         With this service, business owners can benefit from the efficient use of out-of-service vehicles across their fleet and perform joint deliveries for cargoes with close-proximity end destinations.
@@ -82,14 +96,18 @@ export default function SectionFour() {
 
       <img src="img/s4-bg.jpg" className={`bg ${styles['bg']}`} />
       
+      <div className="space-div" />
+      <div className="space-div" />
+
       <div className="video-container">
         {/* <iframe src="https://www.youtube-nocookie.com/embed/nqmpddNspSE" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe> */}
       </div>
 
       <div className="space-div" />
       <div className="space-div" />
+
       <h3>
-        Not one to stand still, Hitachi is further evolving Lumada's capabilities.
+        Not one to stand still, Hitachi is evolving Lumada's capabilities further through research partnerships.
       </h3>
 
       <p>

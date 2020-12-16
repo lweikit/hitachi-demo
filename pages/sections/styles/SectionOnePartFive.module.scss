@@ -1,5 +1,13 @@
+@import "../../../styles/utils.scss";
+
 .part-five {
   color: rgb(242, 242, 242);
+}
+.underline {
+  @include desktop { width: 375px; }
+  @include mobile { width: 250px; }
+  margin: 0 auto 0.5rem;
+  border-top: 1px solid $c_white;
 }
 .bg {
   mask-image: linear-gradient(
@@ -8,9 +16,9 @@
   );
 }
 .hidden {opacity: 0; visibility: hidden;}
-.seq1-bg {animation: fade-in 2s forwards, blend-in 2s forwards 2s;}
-.seq2-p {animation: fade-in 1s forwards 4s}
-.seq3-line {animation: fade-in 1s forwards 5s}
-.seq4-p {animation: fade-in 1s forwards 7s}
+.seq1-bg {animation: fade-in 2s forwards, blend-in 1s forwards 2s;}
+.seq2-p {animation: fade-in 1s forwards 3s}
+.seq3-line {animation: fade-in 1s forwards 4s; margin: 3rem 0;}
+.seq4-p {animation: fade-in 1s forwards 5s}
 @keyframes fade-in {to {opacity: 1; visibility: visible;}}
 @keyframes blend-in {from {opacity: 1;}to {opacity: 0.1;}}

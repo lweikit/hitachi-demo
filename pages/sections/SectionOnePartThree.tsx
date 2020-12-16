@@ -4,11 +4,18 @@ import styles from './styles/SectionOnePartThree.module.scss'
 export default function SectionOnePartThree() {
   return (
     <div className={`section ${styles['part-three']}`}>
-      <h4>Size of ASEAN's Manufacturing Sector</h4>
+      <h4>Size of ASEAN's manufacturing sector</h4>
+      <div className={styles['underline']} />
       <h5>compared to total GDP of the country in 2018</h5>
 
       <div className="space-div" />
+      <div className="space-div" />
       <ManufacturingCarousel />
+      <div className="space-div" />
+      <div className="space-div" />
+      <div className="space-div" />
+      <div className="space-div" />
+      <div className="space-div" />
       <div className="space-div" />
 
       <p>

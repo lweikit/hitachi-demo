@@ -27,17 +27,16 @@ a {
 }
 .main {
   nav {
-    padding: 50px 50px;
+    padding: 25px 50px;
   }
   h1 {
     font-weight: 700;
-    @include desktop { font-size: 3rem; }
+    @include desktop { font-size: 4rem; }
     @include mobile { font-size: 2rem; }
   }
   h2 {
     font-weight: 300;
-    text-decoration: underline;
-    @include desktop { font-size: 1.5rem; }
+    @include desktop { font-size: 2rem; }
     @include mobile { font-size: 1rem; }
   }
   h3 {
@@ -58,54 +57,78 @@ a {
     @include mobile { font-size: 0.75rem; }
   }
   p {
-    @include desktop { font-size: 1rem; margin: 3rem 1rem; }
-    @include mobile { font-size: 0.75rem; margin: 1rem 1rem; }
+    margin: 1rem 1rem;
+    @include desktop { font-size: 1rem; }
+    @include mobile { font-size: 0.75rem; }
   }
 }
 
 /* Common Classes */
 .section {
-  @include desktop { padding: 10rem 0rem; }
-  @include mobile { padding: 2.5rem 0rem; }
+  @include desktop { padding: 8rem 0rem; }
+  @include mobile { padding: 4rem 0rem; }
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
 }
 .space-div {
-  @include desktop { margin: 2rem 0rem; }
-  @include mobile { margin: 1rem 0rem; }
+  @include desktop { margin: 1rem 0rem; }
+  @include mobile { margin: .5rem 0rem; }
+}
+.no-margin {
+  margin: 0 0;
 }
 .align-left {
   text-align: left; 
 }
+.align-right {
+  text-align: right; 
+}
 .bg {
   position: absolute;
-  left: -50%;
+  left: 50%;
+  right: 50%;
   bottom: 0%;
   width: 100vw;
   opacity: 0.1;
-  @include mobile { left: -10%; }
+  margin: 0 -50vw;
 }
 /* Section Classes */
 .gradient-bg-1 {
   background-image: linear-gradient(
-    rgb(30, 57, 152),
-    rgb(215, 216, 214) 25%,
-    rgb(215, 216, 214) 40%,
-    rgba(121, 126, 246, 0.5),
-    rgb(215, 216, 214) 60%,
-    rgb(215, 216, 214) 70%,
-    rgb(30, 57, 152)
+    $c_dark_blue,
+    $c_grey 50%,
   );
 }
 .gradient-bg-2 {
   background-image: linear-gradient(
-    rgb(121, 126, 246),
-    rgba(125,214,246, 0.5),
-    rgb(215, 216, 214),
-    rgba(125,214,246, 0.5),
-    rgb(121, 126, 246)
+    $c_grey,
+    $c_light_purple 5%,
+    $c_light_purple 25%,
+    $c_grey 40%,
+    $c_grey 50%,
+    $c_dark_blue
+  );
+}
+.gradient-bg-3 {
+  background-image: linear-gradient(
+    $c_purple,
+    $c_light_blue
+  );
+}
+.gradient-bg-4 {
+  background-image: linear-gradient(
+    $c_light_blue,
+    $c_white
+  );
+}
+.gradient-bg-5 {
+  background-image: linear-gradient(
+    $c_white,
+    $c_grey 55%,
+    $c_light_blue,
+    $c_purple
   );
 }
 .slick-slide.slick-active.slick-center{

@@ -3,9 +3,14 @@
 .part-three {
   color: $c_dark_blue;
 }
+.underline {
+  @include desktop { width: 410px; }
+  @include mobile { width: 270px; }
+  margin: 0 auto 0.5rem;
+  border-top: 1px solid $c_white;
+}
 .bg {
   position: absolute;
-  @include desktop { width: 50vw; }
-  @include mobile { width: 80vw; }
+  width: 100%;
   z-index: -1;
 }

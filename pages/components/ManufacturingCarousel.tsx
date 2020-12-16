@@ -7,7 +7,7 @@ import styles from './styles/ManufacturingCarousel.module.scss'
 export default function ManufacturingCarousel() {
   const manufacturingSizeByCountry = [
     {
-      country: 'BRUNEI DARUSSALAM',
+      country: 'BRUNEI',
       percentage: '62.9%',
     },
     {

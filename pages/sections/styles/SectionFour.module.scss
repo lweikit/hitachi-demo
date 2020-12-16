@@ -4,25 +4,29 @@
   position: relative;
   color: $c_dark_blue;
 }
+.underline {
+  @include desktop { width: 400px; }
+  @include mobile { width: 200px; }
+  margin: 0rem auto 0.5rem;
+  border-top: 1px solid $c_dark_blue;
+}
 .bg-left {
   position: absolute;
-  width: 62.5vw;
+  width: 100%;
   top: -5%;
-  @include desktop { left: -100%; }
-  @include mobile { left: -50% ; }
+  left: -75%;
 }
 .bg-right {
   position: absolute;
-  width: 62.5vw;
+  width: 100%;
   top: 5%;
-  @include desktop { right: -100%; }
-  @include mobile { right: -50%; }
+  right: -75%;
 }
 .hidden {opacity: 0; visibility: hidden;}
-.seq1-bg {animation: fade-in 2s forwards, blend-in 2s forwards 2s;}
-.seq2-h {animation: fade-in 1s forwards 4s}
-.seq3-p {animation: fade-in 1s forwards 5s}
-.seq4-video {animation: fade-in 1s forwards 6s}
+.seq1-bg {animation: fade-in 2s forwards, blend-in 1s forwards 2s;}
+.seq2-h {animation: fade-in 1s forwards 3s}
+.seq3-p {animation: fade-in 1s forwards 4s; margin: 3rem 0;}
+.seq4-video {animation: fade-in 1s forwards 5s}
 .quote-open { 
   color: $c_purple;
   @include desktop { font-size: 10rem; }
@@ -47,14 +51,12 @@
   @include mobile { font-size: 0.75rem; }
 }
 .bg {
-  bottom: 10%;
   mask-image: linear-gradient(
     rgba(0,0,0,0.1),
     rgba(0,0,0,1),
     rgba(0,0,0,0.1)
   );
-  @include desktop { left: -55%;}
-  @include mobile { left: -15% }
+  @include mobile { bottom: 22.5% }
 }
 @keyframes fade-in {to {opacity: 1; visibility: visible;}}
 @keyframes blend-in {from {opacity: 1;}to {opacity: 0.75;}}
