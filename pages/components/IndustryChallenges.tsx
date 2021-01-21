@@ -22,6 +22,7 @@ export default function IndustryChallenges() {
       { 
         activeIndex == 2 && <object className={styles['svg']} type="image/svg+xml" data="svg/cybersecurity-threats.svg"/>
       }
+      <div className="space-div" />
       <Row>
         <Col xs={{ size: 10, offset: 1 }} lg={{size: 8, offset: 2 }}>
           <Slider 
@@ -33,8 +34,8 @@ export default function IndustryChallenges() {
             value={activeIndex} 
             onChange={setActiveIndex}
             railStyle={{backgroundColor: '#1CA7EC'}}
-            dotStyle={{borderColor: '#1CA7EC', backgroundColor: '#1CA7EC'}}
-            handleStyle={{borderColor: '#1E3998', backgroundColor: '#1E3998'}}
+            dotStyle={{borderColor: '#1CA7EC', backgroundColor: '#1CA7EC', height: 30, width: 30, marginLeft: -15, marginBottom: -10}}
+            handleStyle={{borderColor: '#1E3998', backgroundColor: '#1E3998', height: 30, width: 30, marginLeft: 0, marginTop: -14}}
           />
         </Col>
       </Row>

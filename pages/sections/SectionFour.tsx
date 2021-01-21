@@ -1,4 +1,4 @@
-import TrackVisility from 'react-on-screen'
+import { Row, Col } from 'reactstrap'
 
 import LumadaSolutions from '../components/LumadaSolutions'
 import styles from './styles/SectionFour.module.scss'
@@ -6,45 +6,26 @@ import styles from './styles/SectionFour.module.scss'
 export default function SectionFour() {
   return (
     <div id="section-four" className={`section ${styles['section-four']}`}>
-      <TrackVisility once>
-        {
-          ({ isVisible }) => {
-            const bglClass   = `${styles['hidden']} ${isVisible && styles['seq1-bg']} ${styles['bg-left']}`
-            const bgrClass   = `${styles['hidden']} ${isVisible && styles['seq1-bg']} ${styles['bg-right']}`
-            const hClass     = `${styles['hidden']} ${isVisible && styles['seq2-h']}`
-            const pClass     = `${styles['hidden']} ${isVisible && styles['seq3-p']}`
-            const videoClass = `${styles['hidden']} ${isVisible && styles['seq4-video']} video-container`
-            return (
-              <div>
-                <img src="img/s4-bgl.svg" className={bglClass} />
-                <img src="img/s4-bgr.svg" className={bgrClass} />
-                <div className={hClass}>
-                  <h2>Building smart factories with</h2>
-                  <div className={styles['underline']} />
-                  <h1>HITACHI'S LUMADA</h1>
-                </div>
+      <img src="img/s4-bgl.svg" className={styles['bg-left']} />
+      <img src="img/s4-bgr.svg" className={styles['bg-right']} />
+      <div>
+        <h2>Building smart factories with</h2>
+        <div className={styles['underline']} />
+        <h1>LUMADA</h1>
+      </div>
 
-                <div className={pClass}>
-                  <p>
-                    With a firm belief in the ASEAN's manufacturing future, Hitachi has taken the first step to set up Lumada Centre, in Thailand in 2018. 
-                    Serving as a digital services hub, Lumada aims to equip Southeast Asian companies with IoT capabilities, big data analytics as they move up the Industry 4.0 ladder.
-                  </p>
-                </div>
-
-                <div className={videoClass}>
-                  {/* <iframe src="https://www.youtube-nocookie.com/embed/nqmpddNspSE" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe> */}
-                </div>
-              </div>
-            )
-          }
-        }
-      </TrackVisility>
+      <div>
+        <p>
+          With a firm belief in the ASEAN's manufacturing future, Hitachi has taken the first step to set up Lumada Centre, in Thailand in 2018. 
+          Serving as a digital services hub, Lumada aims to equip Southeast Asian companies with IoT capabilities, big data analytics as they move up the Industry 4.0 ladder.
+        </p>
+      </div>
 
       <div className="space-div" />
       <div className="space-div" />
 
       <div>
-        <img src="img/lumada.svg" width="200" height="100" />
+        <img src="svg/lumada.svg" width="200" height="100" />
       </div>
 
       <p>
@@ -64,12 +45,23 @@ export default function SectionFour() {
       <div className={styles['quote-open']}>&#8220;</div>
 
       <div className={styles['quote-description']}>
-        &#8220;Modern AI and machine learning allow manufacturers to work with real-time data from individual components for targeted maintenance. 
-        Manufacturers can avoid unnecessary maintenance and pre-empt problems associated with unplanned downtime.&#8221;
+        &#8220;ASEAN Manufacturing need digital transformation to improve not only their Cost Competitiveness but also Risk Competitiveness. AI and Analytics, core components of Hitachi’s Smart Manufacturing solution, can help.&#8221;
       </div>
 
-      <div className={styles['quote-line']}/>
-      <div className={styles['quote-by']}>HITACHI EXECUTIVE</div>
+      <div className="space-div" />
+      <div>
+        <Row>
+          <Col className="align-right" xs={{ size: 5 }}>
+            <img className={styles['quote-pic']} src="img/Akihiro-Ohashi.jpg" />
+          </Col>
+          <Col className="align-left" xs={{ size: 7 }}>
+            <div className={styles['quote-by']}>Mr. Akihiro Ohashi</div>
+            <div className={styles['quote-by']}>Executive Director</div>
+            <div className={styles['quote-by']}>ICT Solutions Business</div>
+            <div className={styles['quote-by']}>Hitachi Asia (Thailand) Co., Ltd</div>
+          </Col>
+        </Row>
+      </div>
 
       <div className="space-div" />
       <div className="space-div" />
@@ -90,8 +82,8 @@ export default function SectionFour() {
       <div className="space-div" />
       <div className="space-div" />
 
-      <p>
-        With this service, business owners can benefit from the efficient use of out-of-service vehicles across their fleet and perform joint deliveries for cargoes with close-proximity end destinations.
+      <p className={styles['float']}>
+        With this service, business owners can <a href="https://meeit.biz/en/service/service_tst_ai_logistics/" target="_blank"><u>benefit</u></a> from the efficient use of out-of-service vehicles across their fleet and perform joint deliveries for cargoes with close-proximity end destinations.
       </p>
 
       <img src="img/s4-bg.jpg" className={`bg ${styles['bg']}`} />
@@ -100,7 +92,7 @@ export default function SectionFour() {
       <div className="space-div" />
 
       <div className="video-container">
-        {/* <iframe src="https://www.youtube-nocookie.com/embed/nqmpddNspSE" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe> */}
+        <iframe src="https://www.youtube-nocookie.com/embed/Nn-FZ286YyE" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
       </div>
 
       <div className="space-div" />
@@ -111,7 +103,7 @@ export default function SectionFour() {
       </h3>
 
       <p>
-        Through research partnerships with tech giants such as Toyota and Microsoft, Hitachi is able to offer solutions to manufacturers in three areas.
+        Through research partnerships with tech companies, Hitachi is able to offer solutions to manufacturers in three areas.
       </p>
 
       <LumadaSolutions />

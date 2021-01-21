@@ -1,13 +1,7 @@
 @import "../../../styles/utils.scss";
 
-.percentage {
-  @include desktop { font-size: 5rem; }
-  @include mobile { font-size: 3rem; }
-  font-weight: 700;
-}
-.left-side {
-  border-right: 1px solid $c_teal;
-}
-.right-side {
-  border-left: 1px solid $c_teal;
+.svg {
+  width: 50%;
+  position: relative;
+  z-index: 1;
 }

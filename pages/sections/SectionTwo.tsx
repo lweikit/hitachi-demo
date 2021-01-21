@@ -30,43 +30,17 @@ export default function SectionTwo() {
       
       <div className="space-div" />
       <div className="space-div" />
-      <TrackVisility once>
-        {
-          ({ isVisible }) => {
-            const bgClass    = `${styles['hidden']} ${isVisible && styles['seq1-bg']} ${styles['bg']} bg`
-            const videoClass = `${styles['hidden']} ${isVisible && styles['seq2-video']} video-container`
-            const hClass     = `${styles['hidden']} ${isVisible && styles['seq3-h']}`
-            const sbsClass   = `${styles['hidden']} ${isVisible && styles['seq4-sbs']}`
-            return (
-              <div>
-                <img src="img/s2-bg.jpg" className={bgClass} />
 
-                <div className={videoClass}>
-                  {/* <iframe src="https://www.youtube-nocookie.com/embed/nqmpddNspSE" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe> */}
-                </div>
+      <div className="video-container">
+        <iframe src="https://www.youtube-nocookie.com/embed/FSU6oThPaNA" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+      </div>
 
-                <div className={hClass}>
-                  <h3>
-                    To put it simply, COVID-19 is spearheading this sector towards urgent transformation.
-                  </h3>
-                </div>
+      <div className="space-div" />
+      <h3>To put it simply, COVID-19 is spearheading this sector towards urgent transformation.</h3>
+      <div className="space-div" />
 
-                <div className={sbsClass}>
-                  {
-                    isVisible && <DataByPercent
-                      topText="say that the pandemic has accelerated their digital transformation plans"
-                      bottomText="seek more efficient data management solutions such as robotic process automation (RPA)"
-                      topNumber={92}
-                      bottomNumber={42}
-                      delay={5}
-                    />
-                  }
-                </div>
-              </div>
-            )
-          }
-        }
-      </TrackVisility>
+      <DataByPercent />
+      <img src="img/s2-bg.jpg" className={`bg ${styles['bg']}`} />
     </div>
   )
 }

@@ -17,16 +17,8 @@
     rgba(0,0,0,1) 90%,
     rgba(0,0,0,0.0)
   );
-  @include mobile { bottom: 25% }
+  @include mobile { bottom: 5% }
 }
-@mixin padding {
-  @include desktop { margin: 4rem 0; }
-  @include mobile { margin: 2rem 0; }
+.svg {
+  width: 50%;
 }
-.hidden {opacity: 0; visibility: hidden;}
-.seq1-bg {animation: fade-in 2s forwards, blend-in 1s forwards 2s;}
-.seq2-video {animation: fade-in 1s forwards 3s;}
-.seq3-h {animation: fade-in 1s forwards 4s; @include padding; }
-.seq4-sbs {animation: fade-in 1s forwards 5s; @include padding; }
-@keyframes fade-in {to {opacity: 1; visibility: visible;}}
-@keyframes blend-in {from {opacity: 1;}to {opacity: 0.1;}}

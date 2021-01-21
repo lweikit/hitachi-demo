@@ -18,28 +18,32 @@ export default function SectionFive() {
               <CaseCard 
                 number={'01'}
                 description={'Pivot Power - How GM and Hitachi moved from autos to medical masks in 6 days'}
-                href={'http://social-innovation.hitachi/en/case_studies/pivot-power-gm-hitachi'}
+                href={'http://social-innovation.hitachi/en-sg/case_studies/pivot-power-gm-hitachi'}
+                img={'img/case-1.jpg'}
               />
             </Col>
             <Col lg={{ size: 6 }}>
               <CaseCard 
                 number={'02'}
                 description={'Merging JUKI production facilities with Hitachi\'s operation know-how to bring advances to MONOZUKURI workplaces'}
-                href={'http://social-innovation.hitachi/en/case_studies/juki'}
+                href={'http://social-innovation.hitachi/en-sg/case_studies/juki'}
+                img={'img/case-2.jpg'}
               />
             </Col>
             <Col lg={{ size: 6 }}>
               <CaseCard 
                 number={'03'}
                 description={'Factories are trending towards Remote Work amid COVID-19: Expectations of Smart Factories of the future'}
-                href={'http://social-innovation.hitachi/en/case_studies/smart-factory'}
+                href={'http://social-innovation.hitachi/en-sg/case_studies/smart-factory'}
+                img={'img/case-3.jpg'}
               />
             </Col>
             <Col lg={{ size: 6 }}>
               <CaseCard 
                 number={'04'}
                 description={'Delivering Smiles to our daily lives - The frozen foods industry is evolving with digital technology'}
-                href={'http://social-innovation.hitachi/en/case_studies/nichireifoods'}
+                href={'http://social-innovation.hitachi/en-sg/case_studies/nichireifoods'}
+                img={'img/case-4.jpg'}
               />
             </Col>
           </Row>
@@ -49,7 +53,7 @@ export default function SectionFive() {
       
       <h6>
         Click 
-        <a href="#"> here </a> 
+        <a href="SIB-smartmanufacturing/references.pdf"> here </a> 
         to download reference for this infographic.
       </h6>
     </div>

@@ -18,7 +18,7 @@ export default function LumadaSolutions() {
       <Col xs={{ size: 12 }} lg={{ size: 4 }}>
         <object className={styles['svg']} type="image/svg+xml" data="svg/predictive-maintenance.svg"/>
         <h4 className={styles['bold']}>Predictive Maintenance and Remote Assist</h4>
-        <p>Deploy predictive maintenance, real-time remote assistance and remote training for first-line workers, using HoloLens 2.</p>
+        <p>Deploy predictive maintenance, real-time remote assistance and remote training for frontline workers.</p>
       </Col>
     </Row>
   )

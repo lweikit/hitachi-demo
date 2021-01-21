@@ -1,10 +1,11 @@
-
 import styles from './styles/CaseCard.module.scss'
 
-export default function CaseCard({ number, description, href }) {
+export default function CaseCard({ number, description, href, img }) {
   return (
     <div className={styles['container']}>
-      <div className={styles['image']}/>
+      <div className={styles['image']}>
+        <img src={img}/>
+      </div>
       <div className={styles['cover']}>
         { number }
       </div>
@@ -13,8 +14,8 @@ export default function CaseCard({ number, description, href }) {
           { description }
         </div>
         <div>
-          <a href={href}>
-            Learn More
+          <a href={href} target="_blank">
+            Learn More 
           </a>
         </div>
       </div>

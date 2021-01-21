@@ -24,7 +24,7 @@ export default function SectionOnePartFive() {
 
       <Row>
         <Col>
-          <object type="image/svg+xml" data="svg/productivity-2.svg" />
+          <object className={styles['svg']} type="image/svg+xml" data="svg/productivity-2.svg" />
         </Col>
       </Row>
 

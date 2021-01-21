@@ -26,11 +26,11 @@ export default function NavBar() {
 
 
   return (
-    <Navbar dark fixed="top" expand="lg" style={{backgroundColor: isScrolling ? '#1E3998' : 'transparent', transition: '.5s ease-out'}}>
-      <NavbarToggler onClick={toggle} />
-      <NavbarBrand className={styles['mobile']} href="/"><img src="svg/logo.svg" height="25px" /></NavbarBrand>
+    // <Navbar dark fixed="top" expand="lg" style={{backgroundColor: isScrolling ? '#1E3998' : 'transparent', transition: '.5s ease-out'}}>
+    <Navbar dark fixed="top" expand="lg" style={{backgroundColor: '#1E3998'}}>
+      <NavbarToggler onClick={toggle} className="mx-auto"/>
       <Collapse isOpen={isOpen} navbar>
-        <Nav navbar>
+        <Nav navbar className="mx-auto">
           <NavItem className={styles['quick-link']}>
             <NavLink tag={Link} to="section-one" spy={true} smooth={true}>
               <div>ASEAN</div>
@@ -63,7 +63,6 @@ export default function NavBar() {
           </NavItem>
         </Nav>
       </Collapse>
-      <NavbarBrand className={styles['desktop']} href="/"><img src="svg/logo.svg" height="25px" /></NavbarBrand>
     </Navbar>
   )
 }

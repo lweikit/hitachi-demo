@@ -2,6 +2,8 @@
 
 .part-four {
   color: rgb(30, 57, 152);
+  @include desktop { padding-bottom: 4rem; }
+  @include mobile { padding-bottom: 2rem; }
 }
 .underline {
   @include desktop { width: 500px; }

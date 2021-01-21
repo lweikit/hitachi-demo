@@ -1,12 +1,12 @@
 import { Row, Col } from 'reactstrap'
-import Fade from 'react-reveal/Fade'
+import Slide from 'react-reveal/Slide'
 
 import styles from './styles/SectionOnePartTwo.module.scss'
 
 export default function SectionOnePartTwo() {
   return (
     <div className={`section ${styles['part-two']}`}>
-      <Fade top>
+      <Slide top>
         <h3>In 2019, ASEAN countries were just starting to embrace Industry 4.0</h3>
         <div className="space-div" />
         
@@ -66,7 +66,7 @@ export default function SectionOnePartTwo() {
           ASEAN is projected to grow at an average of 4.9% per annum for the next decade. 
           As a core growth driver, manufacturing contributes about US$670 billion or 21% to the region's GDP in 2018.
         </p>
-      </Fade>
+      </Slide>
       <img src="img/s1-p2-bgl.svg" className={styles['bg-left']}/>
       <img src="img/s1-p2-bgr.svg" className={styles['bg-right']}/>
     </div>

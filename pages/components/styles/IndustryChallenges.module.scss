@@ -1,8 +1,8 @@
 @import "../../../styles/utils.scss";
 
 .svg {
-  @include desktop { height: 20vh; }
-  @include mobile { height: 10vh; }
+  @include desktop { height: 20rem; }
+  @include mobile { height: 10rem; }
   margin: 3rem 0rem;
   animation: fade-in 1s ease-out forwards;
 }
