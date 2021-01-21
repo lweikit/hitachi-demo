@@ -1,1 +1,0 @@
-_N_E=(window.webpackJsonp_N_E=window.webpackJsonp_N_E||[]).push([[18],{nv0I:function(n,_,o){(window.__NEXT_P=window.__NEXT_P||[]).push(["/components/IndustryChallenges",function(){return o("pk9T")}])}},[["nv0I",0,1,3,2,6]]]);
