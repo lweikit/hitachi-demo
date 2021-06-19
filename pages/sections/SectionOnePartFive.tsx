@@ -22,16 +22,22 @@ export default function SectionOnePartFive() {
         </Col>
       </Row>
 
-      <Row>
-        <Col>
-          <object className={styles['svg']} type="image/svg+xml" data="svg/productivity-2.svg" />
-        </Col>
-      </Row>
+      <TrackVisility partialVisibility once>
+        {
+          ({ isVisible }) => isVisible && (
+            <Row>
+              <Col>
+                <object type="image/svg+xml" data="svg/productivity-2-mobile.svg" />
+              </Col>
+            </Row>
+          )
+        }
+      </TrackVisility>
 
       <div className="space-div" />
       <div className="space-div" />
       <div className="space-div" />
-      <TrackVisility once>
+      <TrackVisility partialVisibility once>
         {
           ({ isVisible }) => {
             const bgClass   = `${styles['hidden']} ${isVisible && styles['seq1-bg']} ${styles['bg']} bg`

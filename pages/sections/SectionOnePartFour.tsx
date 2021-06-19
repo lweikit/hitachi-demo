@@ -1,4 +1,5 @@
 import { Row, Col } from 'reactstrap'
+import TrackVisility from 'react-on-screen'
 
 import styles from './styles/SectionOnePartFour.module.scss'
 
@@ -20,11 +21,17 @@ export default function SectionOnePartFour() {
         </Col>
       </Row>
 
-      <Row>
-        <Col>
-          <object type="image/svg+xml" data="svg/productivity-1.svg" />
-        </Col>
-      </Row>
+      <TrackVisility partialVisibility once>
+        {
+          ({ isVisible }) => isVisible && (
+            <Row>
+              <Col>
+                <object type="image/svg+xml" data="svg/productivity-1-mobile.svg" />
+              </Col>
+            </Row>
+          )
+        }
+      </TrackVisility>
     </div>
   )
 }

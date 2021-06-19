@@ -53,7 +53,7 @@ export default function SectionFive() {
       
       <h6>
         Click 
-        <a href="SIB-smartmanufacturing/references.pdf"> here </a> 
+        <a href="https://www.hitachi.com.sg/SIB-smartmanufacturing/references.pdf"> <u>here</u> </a> 
         to download reference for this infographic.
       </h6>
     </div>

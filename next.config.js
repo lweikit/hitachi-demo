@@ -1,3 +1,3 @@
-module.exports = {
-  basePath: '/SIB-smartmanufacturing'
-}
+// module.exports = {
+//   basePath: '/SIB-smartmanufacturing'
+// }

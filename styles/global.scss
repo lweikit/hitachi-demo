@@ -61,6 +61,14 @@ a {
 }
 
 /* Common Classes */
+.desktop {
+  @include desktop { display: block; }
+  @include mobile { display: none; }
+}
+.mobile {
+  @include desktop { display: none; }
+  @include mobile { display: block; }
+}
 .section {
   @include desktop { padding: 8rem 0rem; }
   @include mobile { padding: 4rem 0rem; }

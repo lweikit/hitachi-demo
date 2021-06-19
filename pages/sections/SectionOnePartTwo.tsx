@@ -1,4 +1,5 @@
 import { Row, Col } from 'reactstrap'
+import TrackVisility from 'react-on-screen'
 import Slide from 'react-reveal/Slide'
 
 import styles from './styles/SectionOnePartTwo.module.scss'
@@ -22,25 +23,33 @@ export default function SectionOnePartTwo() {
           </Col>
         </Row>
 
-        <Row>
-          <Col>
-            <object type="image/svg+xml" data="svg/internet-of-things.svg" />
-          </Col>
-          <Col>
-            <object type="image/svg+xml" data="svg/big-data.svg" />
-          </Col>
-          <Col>
-            <object type="image/svg+xml" data="svg/cloud-based-technologies.svg" />
-          </Col>
-        </Row>
-        <Row>
-          <Col xs={{ size: 4, offset: 2 }}>
-            <object type="image/svg+xml" data="svg/artificial-intelligence.svg" />
-          </Col>
-          <Col xs={{ size: 4 }}>
-            <object type="image/svg+xml" data="svg/advanced-manufacturing.svg" />
-          </Col>
-        </Row>
+        <TrackVisility partialVisibility once>
+          {
+            ({ isVisible }) => isVisible && (
+              <div>
+                <Row>
+                  <Col>
+                    <object type="image/svg+xml" data="svg/internet-of-things-mobile.svg" />
+                  </Col>
+                  <Col>
+                    <object type="image/svg+xml" data="svg/big-data-mobile.svg" />
+                  </Col>
+                  <Col>
+                    <object type="image/svg+xml" data="svg/cloud-based-technologies-mobile.svg" />
+                  </Col>
+                </Row>
+                <Row>
+                  <Col xs={{ size: 4, offset: 2 }}>
+                    <object type="image/svg+xml" data="svg/artificial-intelligence-mobile.svg" />
+                  </Col>
+                  <Col xs={{ size: 4 }}>
+                    <object type="image/svg+xml" data="svg/advanced-manufacturing-mobile.svg" />
+                  </Col>
+                </Row>
+              </div>
+            )
+          }
+        </TrackVisility>
 
         <div className="space-div" />
         <Row>
@@ -55,11 +64,24 @@ export default function SectionOnePartTwo() {
           </Col>
         </Row>
         
-        <Row>
-          <Col>
-            <object type="image/svg+xml" data="svg/manufacturing-contribution.svg" />
-          </Col>
-        </Row>
+        <div className="desktop">
+          <Row>
+            <Col>
+              <object type="image/svg+xml" data="svg/manufacturing-contribution.svg" />
+            </Col>
+          </Row>
+        </div>
+        <div className="mobile">
+          <Row>
+            <Col>
+              <TrackVisility partialVisibility once>
+                {
+                  ({ isVisible }) => isVisible && <object type="image/svg+xml" data="svg/manufacturing-contribution-mobile.svg" />
+                }
+              </TrackVisility>
+            </Col>
+          </Row>
+        </div>
 
         <p>
           Home to the sixth largest global economy in 2019 at around US$3 trillion, 
