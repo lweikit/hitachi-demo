@@ -7,18 +7,22 @@ import styles from './styles/SectionOnePartFive.module.scss'
 export default function SectionOnePartFive() {
   return (
     <div className={`section ${styles['part-five']}`}>
-      <h4>Gains in manufacturing productivity</h4>
+      <h4>
+        Keuntungan dari tingkat produktivitas sektor manufaktur
+      </h4>
       <div className={styles['underline']} />
 
       <Row>
         <Col xs={{ size: 2 }} lg={{ size: 1 }}>
-          <object type="image/svg+xml" data="svg/mouseover.svg" />
+          <object type="image/svg+xml" data="svg/id/mouseover.svg" />
         </Col>
         <Col>
-          <h5>From 2008 to 2017</h5>
+          <h5>
+            dari tahun 2008 sampai dengan 2017
+          </h5>
         </Col>
         <Col xs={{ size: 2 }} lg={{ size: 1 }}>
-          <object type="image/svg+xml" data="svg/mouseover.svg" />
+          <object type="image/svg+xml" data="svg/id/mouseover.svg" />
         </Col>
       </Row>
 
@@ -27,7 +31,7 @@ export default function SectionOnePartFive() {
           ({ isVisible }) => isVisible && (
             <Row>
               <Col>
-                <object type="image/svg+xml" data="svg/productivity-2-mobile.svg" />
+                <object type="image/svg+xml" data="svg/id/productivity-2.svg" />
               </Col>
             </Row>
           )
@@ -48,9 +52,9 @@ export default function SectionOnePartFive() {
               <div>
                 <img src="img/s1-p5-bg.jpg" className={bgClass} />
                 <p className={pClass}>
-                  Industry 4.0 promises to change that by escalating the region's manufacturing value.
-                  However, the current pace of adoption lag behind China, which has invested heavily in automation and robots in the past 10 years.
-                  This move has enabled Chinese productivity to grow by 84%, compared with 38% on average for ASEAN.
+                  Industri 4.0 menjanjikan perubahan melalui peningkatan nilai manufaktur suatu kawasan. 
+                  Saat ini penerapannya masih jauh tertinggal dari China yang telah banyak melalukan investasi dalam automasi dan robot dalam 10 tahun terakhir. 
+                  Investasi tersebut terbukti meningkatkan produktivitas RRC sebesar 84%, berbanding hanya 38% secara rata-rata untuk kawasan ASEAN.
                 </p>
           
                 <div className={lineClass}>
@@ -59,7 +63,9 @@ export default function SectionOnePartFive() {
                   }
                 </div>
           
-                <h3 className={hClass}>THEN, COVID-19 CAME AND CHANGED EVERYTHING</h3>
+                <h3 className={hClass}>
+                  COVID-19 MUNCUL DAN SEMUANYA BERUBAH
+                </h3>
               </div>
             )
           }

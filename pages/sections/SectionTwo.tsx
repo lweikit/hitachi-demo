@@ -7,9 +7,13 @@ import styles from './styles/SectionTwo.module.scss'
 export default function SectionTwo() {
   return (
     <div id="section-two" className={`section ${styles['section-two']}`}>
-      <h2>Urgent need for</h2>
+      <h2>
+        Kebutuhan mendesak untuk melakukan 
+      </h2>
       <div className={styles['underline']} />
-      <h1>TRANSFORMATION</h1>
+      <h1>
+        Transformasi
+      </h1>
 
       <div className="space-div" />
       <TrackVisility once>
@@ -19,13 +23,14 @@ export default function SectionTwo() {
       </TrackVisility>
       <div className="space-div" />
 
-      <h3>COVID-19 drove an urgent need to modernise operations.</h3>
+      <h3>
+        COVID-19 mendesak harus dilakukan modernisasi operasional.
+      </h3>
 
       <p>
-        Telling tales of manufacturers' reliance on manual processes and operations, 
-        coupled with the lack of visibility designed into their supply chains have surfaced. 
-        Both hinder manufacturers' ability to respond dynamically during times of uncertain demand. 
-        Modernising these capabilities will be essential for manufacturers to recover from the pandemic quickly.
+        Ketergantungan sektor manufaktur pada proses dan operasional yang manual serta kurangnya pengetahuan yang mendalam akan rantai supply merupakan masalah yang nyata. 
+        Kedua faktor tersebut menghambat kemampuan produsen untuk merespon dengan cepat jika terjadi permintaan di luar perkiraan. 
+        Modernisasi sangat dibutuhkan agar produsen dapat segera pulih dari pandemi.
       </p>
       
       <div className="space-div" />
@@ -36,7 +41,9 @@ export default function SectionTwo() {
       </div>
 
       <div className="space-div" />
-      <h3>To put it simply, COVID-19 is spearheading this sector towards urgent transformation.</h3>
+      <h3>
+        Secara singkat, COVID-19 dapat dikatakan semakin mendesak terjadinya transformasi di sektor manufaktur.
+      </h3>
       <div className="space-div" />
 
       <DataByPercent />

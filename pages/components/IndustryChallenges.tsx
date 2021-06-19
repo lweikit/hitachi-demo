@@ -7,9 +7,9 @@ import styles from './styles/IndustryChallenges.module.scss'
 export default function IndustryChallenges() {
   const [activeIndex, setActiveIndex] = useState(0)
   const marks = {
-    0: 'Data living in silos',
-    1: 'Lack of skilled managers',
-    2: 'Cybersecurity threats',
+    0: 'Data silos',
+    1: 'Kurangnya manajer yang mumpuni',
+    2: 'Ancaman keamanan siber',
   }
   return (
     <div>
@@ -33,9 +33,9 @@ export default function IndustryChallenges() {
             included={false} 
             value={activeIndex} 
             onChange={setActiveIndex}
-            railStyle={{backgroundColor: '#1CA7EC'}}
-            dotStyle={{borderColor: '#1CA7EC', backgroundColor: '#1CA7EC', height: 30, width: 30, marginLeft: -15, marginBottom: -10}}
-            handleStyle={{borderColor: '#1E3998', backgroundColor: '#1E3998', height: 30, width: 30, marginLeft: 0, marginTop: -14}}
+            railStyle={{backgroundColor: '#1CA7EC', marginTop: 20}}
+            dotStyle={{borderColor: '#1CA7EC', backgroundColor: '#1CA7EC', height: 30, width: 30, marginLeft: -15, marginBottom: -35}}
+            handleStyle={{borderColor: '#1E3998', backgroundColor: '#1E3998', height: 30, width: 30, marginLeft: 0, marginTop: 10}}
           />
         </Col>
       </Row>
@@ -43,10 +43,10 @@ export default function IndustryChallenges() {
         activeIndex == 0 && (
           <div className={styles['description']}>
             <p>
-              According to a IDC study, manufacturing data is rarely housed in a common data lake or system, but typically in siloed systems.
+              Menurut penelitian IDC, data manufaktur sangat jarang tersimpan dalam satu penyimpanan data atau sistem, tetapi tersebar di beberapa tempat.
             </p>
             <p>
-              Operators and engineers must manually piece together information from these siloed systems in a tedious and time-consuming process - which naturally hampers innovation and discourages collaboration in a company.
+              Para operator dan teknisi harus secara manual mencari informasi tersebut dari sistem yang berbeda melalui proses yang rumit dan menghabiskan banyak waktu– yang sering sekali menghambat inovasi serta kolaborasi dalam perusahaan.
             </p>
           </div>
         ) 
@@ -55,7 +55,7 @@ export default function IndustryChallenges() {
         activeIndex == 1 && (
           <div className={styles['description']}>
             <p>
-              A McKinsey study has revealed that ASEAN companies suffer from a lack of managers who understand new technologies and innovation to properly implement a transformational strategy, and an insufficient grasp of how all these new solutions can best optimise work processes.
+              Sebuah penelitian yang dilakukan oleh McKinsey menunjukkan bahwa banyak perusahaan yang berada di kawasan ASEAN tidak memiliki manajer yang  memahami teknologi serta inovasi terbaru dalam menerapkan strategi informasi, dan juga kurangnya pengetahuan akan solusi-solusi yang dapat mengoptimalkan proses kerja.
             </p>
           </div>
         )
@@ -64,10 +64,10 @@ export default function IndustryChallenges() {
         activeIndex == 2 && (
           <div className={styles['description']}>
             <p>
-              Risks to manufacturers have existed as long as production has been mechanised. Industry 4.0 however, heralds the greatest leaps in cyber risk to date, as highlighted in a Deloitte paper.
+              Masalah ini telah ada sejak penggunaan mesin dalam proses produksi. Konsep Industri 4.0 juga sangat menekankan pada bahaya yang berasal dari dunia siber, seperti yang tertera dalam sebuah artikel dari Deloitte.
             </p>
             <p>
-              Advanced malware, armed with zero-day exploits, that automously targets vulnerable devices and spreads with little human intervention is likely to overpower an already challenged IT/OT security staff. This disturbing trend highlights the need for IoT devices manufacturers to product security-hardened devices.
+              Malware canggih dengan zero-day exploit dan menyerang gawai-gawai rentan dan dapat menyebar nyaris tanpa intervensi manusia  memiliki risiko besar dan saat ini telah menjadi hal yang menakutkan bagi banyak pegiat IT/TO. Trend ini semakin menekankan kebutuhan akan produsen gawai IoT dengan fitur keamanan yang kokoh.
             </p>
           </div>
         )

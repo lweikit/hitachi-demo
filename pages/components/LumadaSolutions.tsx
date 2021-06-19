@@ -7,18 +7,30 @@ export default function LumadaSolutions() {
     <Row>
       <Col xs={{ size: 12 }} lg={{ size: 4 }}>
         <object className={styles['svg']} type="image/svg+xml" data="svg/increase-productivity.svg"/>
-        <h4 className={styles['bold']}>Increase Manufacturing Productivity</h4>
-        <p>Analyse data collected from manufacturing sites to optimise factory operations.</p>
+        <h4 className={styles['bold']}>
+          Meningkatkan Produktivitas Produsen
+        </h4>
+        <p>
+          Menganalisis data yang diperoleh dari lokasi pabrik untuk mengoptimalkan pengoperasian pabrik
+        </p>
       </Col>
       <Col xs={{ size: 12 }} lg={{ size: 4 }}>
         <object className={styles['svg']} type="image/svg+xml" data="svg/optimise-logistics.svg"/>
-        <h4 className={styles['bold']}>Optimise Logistics with Data Analytics</h4>
-        <p>Analyse traffic congestion, storage and delivery locations to enable smart routing to save miles and deliver faster.</p>
+        <h4 className={styles['bold']}>
+          Mengoptimalkan Logistik dengan Analisis Data
+        </h4>
+        <p>
+          Menganalisis kemacetan lalu lintas, penyimpanan dan lokasi pengiriman untuk perencanaan rute yang pintar (smart routing), mempersingkat jarak tempuh dan mempercepat waktu pengiriman
+        </p>
       </Col>
       <Col xs={{ size: 12 }} lg={{ size: 4 }}>
         <object className={styles['svg']} type="image/svg+xml" data="svg/predictive-maintenance.svg"/>
-        <h4 className={styles['bold']}>Predictive Maintenance and Remote Assist</h4>
-        <p>Deploy predictive maintenance, real-time remote assistance and remote training for frontline workers.</p>
+        <h4 className={styles['bold']}>
+          Perawatan Berjadwal dan Bantuan Jarak Jauh
+        </h4>
+        <p>
+          Melakukan perawatan berjadwal, bantuan jarak jauh secara real-time dan juga pelatihan jarak jauh bagi pekerja pada lini depan
+        </p>
       </Col>
     </Row>
   )

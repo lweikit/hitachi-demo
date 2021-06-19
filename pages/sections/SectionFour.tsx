@@ -9,15 +9,19 @@ export default function SectionFour() {
       <img src="img/s4-bgl.svg" className={styles['bg-left']} />
       <img src="img/s4-bgr.svg" className={styles['bg-right']} />
       <div>
-        <h2>Building smart factories with</h2>
+        <h2>
+          Mengembangkan pabrik pintar dengan
+        </h2>
         <div className={styles['underline']} />
-        <h1>LUMADA</h1>
+        <h1>
+          LUMADA
+        </h1>
       </div>
 
       <div>
         <p>
-          With a firm belief in the ASEAN's manufacturing future, Hitachi has taken the first step to set up Lumada Centre, in Thailand in 2018. 
-          Serving as a digital services hub, Lumada aims to equip Southeast Asian companies with IoT capabilities, big data analytics as they move up the Industry 4.0 ladder.
+          Melihat masa depan sektor manufaktur ASEAN yang berpotensi besar, Hitachi mengambil langkah awal dengan mendirikan Lumada Centre di Thailand pada tahun 2018. 
+          Sebagai pusat layanan digital, Lumada bertujuan untuk melengkapi perusahaan-perusahaan di Asia Tenggara dengan keahlian IoT dan Analisis big data saat mereka memasuki era Industri 4.0.
         </p>
       </div>
 
@@ -29,14 +33,14 @@ export default function SectionFour() {
       </div>
 
       <p>
-        Lumada is an IoT platform that allows you and Hitachi to co-create customized digital solutions to suit your business needs. 
-        It offers access to Hitachi's advanced technologies through the analysis of your data, 
-        which is then used to add value to your business operations through the implementation of big data analytics and artificial intelligence.
+        Lumada merupakan wadah IoT yang memungkinkan Anda dan Hitachi secara bersama menciptakan solusi digital sesuai dengan kebutuhan bisnis Anda. 
+        Cara ini memberikan akses pada teknologi canggih dari Hitachi melalui analisis data yang kemudian digunakan sebagai nilai tambah pada proses operasional bisnis Anda dengan menerapkan analisis big data dan kecerdasan artifisial.
       </p>
 
       <p>
-        Having worked closely with manufacturers, Hitachi understands that talking about smart factories and data analytics can sound intimidating at first. 
-        However, many manufacturers become more receptive after learning how new technologies help to lower costs, raise productivity and ultimately, increase their profits.
+        Dengan pengalaman luas dari kerja sama dengan banyak produsen. Hitachi paham bahwa konsep pabrik pintar dan analisis data dapat mengintimidasi banyak orang. 
+        Akan tetapi, banyak produsen yang semakin mampu menerima setelah mereka mengetahui lebih lanjut bahwa teknologi-teknologi baru  dapat mengurangi biaya operasional, 
+        meningkatkan produktivitas dan pada akhirnya meningkatkan keuntungan.
       </p>
 
       <div className="space-div" />
@@ -45,7 +49,8 @@ export default function SectionFour() {
       <div className={styles['quote-open']}>&#8220;</div>
 
       <div className={styles['quote-description']}>
-        &#8220;ASEAN Manufacturing need digital transformation to improve not only their Cost Competitiveness but also Risk Competitiveness. AI and Analytics, core components of Hitachi’s Smart Manufacturing solution, can help.&#8221;
+        &#8220;Sektor Manufaktur ASEAN sangat membutuhkan transformasi digital tidak hanya untuk meningkatkan Cost Competitiveness tetapi juga Risk Competitiveness. 
+        Kecerdasan Artifisial dan Analitis yang merupakan inti dari solusi Smart Manufacturing dari Hitachi dapat membantu.&#8221;
       </div>
 
       <div className="space-div" />
@@ -55,7 +60,7 @@ export default function SectionFour() {
             <img className={styles['quote-pic']} src="img/Akihiro-Ohashi.jpg" />
           </Col>
           <Col className="align-left" xs={{ size: 7 }}>
-            <div className={styles['quote-by']}>Mr. Akihiro Ohashi</div>
+            <div className={styles['quote-by']}>Bpk. Akihiro Ohashi</div>
             <div className={styles['quote-by']}>Executive Director</div>
             <div className={styles['quote-by']}>ICT Solutions Business</div>
             <div className={styles['quote-by']}>Hitachi Asia (Thailand) Co., Ltd</div>
@@ -67,7 +72,7 @@ export default function SectionFour() {
       <div className="space-div" />
 
       <p>
-        Besides enabling smart factories, Hitachi also aims to elevate the logistics sector by incorporating smart technologies across the entire logistics and delivery network.
+        Selain membantu penerapan pabrik pintar, Hitachi juga bertujuan membantu sektor logistik dengan penggunaan teknologi pintar pada seluruh sektor logistik dan jaringan pengirimannya.
       </p>
 
       <div className="space-div" />
@@ -76,14 +81,14 @@ export default function SectionFour() {
       <div className="space-div" />
 
       <h3>
-        In 2019, Hitachi rolled out a sharing service for commercial vehicles in Thailand.
+        Pada tahun 2019, Hitachi meluncurkan layanan bersama untuk kendaraan komersial di Thailand.
       </h3>
 
       <div className="space-div" />
       <div className="space-div" />
 
       <p className={styles['float']}>
-        With this service, business owners can <a href="https://meeit.biz/en/service/service_tst_ai_logistics/" target="_blank"><u>benefit</u></a> from the efficient use of out-of-service vehicles across their fleet and perform joint deliveries for cargoes with close-proximity end destinations.
+        Melalui layanan ini, para pengusaha akan <a href="https://meeit.biz/en/service/service_tst_ai_logistics/" target="_blank"><u>diuntungkan</u></a> dengan penggunaan kendaraan di luar layanan yang efisien dan pengiriman kargo bersama untuk tujuan yang berdekatan.
       </p>
 
       <img src="img/s4-bg.jpg" className={`bg ${styles['bg']}`} />
@@ -99,11 +104,11 @@ export default function SectionFour() {
       <div className="space-div" />
 
       <h3>
-        Not one to stand still, Hitachi is evolving Lumada's capabilities further through research partnerships.
+        Tidak puas dengan pencapaiannya saat ini, Hitachi terus mengembangkan kemampuan Lumada melalui kerja sama dengan beberapa mitra penelitian.
       </h3>
 
       <p>
-        Through research partnerships with tech companies, Hitachi is able to offer solutions to manufacturers in three areas.
+        Melalui kerja sama dengan beberapa mitra penelitian, Hitachi mampu menawarkan solusi bagi produsen dalam tiga area.
       </p>
 
       <LumadaSolutions />

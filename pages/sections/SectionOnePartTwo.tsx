@@ -8,18 +8,22 @@ export default function SectionOnePartTwo() {
   return (
     <div className={`section ${styles['part-two']}`}>
       <Slide top>
-        <h3>In 2019, ASEAN countries were just starting to embrace Industry 4.0</h3>
+        <h3>
+          Pada tahun 2019, negara-negara di kawasan ASEAN berada di tahap awal dalam menerapkan konsep Industri 4.0.
+        </h3>
         <div className="space-div" />
         
         <Row>
           <Col xs={{ size: 2 }} lg={{ size: 1 }}>
-            <object type="image/svg+xml" data="svg/mouseover.svg" />
+            <object type="image/svg+xml" data="svg/id/mouseover.svg" />
           </Col>
           <Col>
-            <h4>5 key components of Industry 4.0</h4>
+            <h4>
+              5 faktor penting dalam konsep Industri 4.0
+            </h4>
           </Col>
           <Col xs={{ size: 2 }} lg={{ size: 1 }}>
-            <object type="image/svg+xml" data="svg/mouseover.svg" />
+            <object type="image/svg+xml" data="svg/id/mouseover.svg" />
           </Col>
         </Row>
 
@@ -29,21 +33,21 @@ export default function SectionOnePartTwo() {
               <div>
                 <Row>
                   <Col>
-                    <object type="image/svg+xml" data="svg/internet-of-things-mobile.svg" />
+                    <object type="image/svg+xml" data="svg/id/internet-of-things.svg" />
                   </Col>
                   <Col>
-                    <object type="image/svg+xml" data="svg/big-data-mobile.svg" />
+                    <object type="image/svg+xml" data="svg/id/big-data.svg" />
                   </Col>
                   <Col>
-                    <object type="image/svg+xml" data="svg/cloud-based-technologies-mobile.svg" />
+                    <object type="image/svg+xml" data="svg/id/cloud-based-technologies.svg" />
                   </Col>
                 </Row>
                 <Row>
                   <Col xs={{ size: 4, offset: 2 }}>
-                    <object type="image/svg+xml" data="svg/artificial-intelligence-mobile.svg" />
+                    <object type="image/svg+xml" data="svg/id/artificial-intelligence.svg" />
                   </Col>
                   <Col xs={{ size: 4 }}>
-                    <object type="image/svg+xml" data="svg/advanced-manufacturing-mobile.svg" />
+                    <object type="image/svg+xml" data="svg/id/advanced-manufacturing.svg" />
                   </Col>
                 </Row>
               </div>
@@ -54,20 +58,22 @@ export default function SectionOnePartTwo() {
         <div className="space-div" />
         <Row>
           <Col xs={{ size: 2 }} lg={{ size: 1 }}>
-            <object type="image/svg+xml" data="svg/mouseover.svg" />
+            <object type="image/svg+xml" data="svg/id/mouseover.svg" />
           </Col>
           <Col>
-            <h4>How critical is manufacturing to ASEAN?</h4>
+            <h4>
+              Seberapa  pentingkah sektor manufaktur di kawasan ASEAN?
+            </h4>
           </Col>
           <Col xs={{ size: 2 }} lg={{ size: 1 }}>
-            <object type="image/svg+xml" data="svg/mouseover.svg" />
+            <object type="image/svg+xml" data="svg/id/mouseover.svg" />
           </Col>
         </Row>
         
         <div className="desktop">
           <Row>
             <Col>
-              <object type="image/svg+xml" data="svg/manufacturing-contribution.svg" />
+              <object type="image/svg+xml" data="svg/id/manufacturing-contribution.svg" />
             </Col>
           </Row>
         </div>
@@ -76,7 +82,7 @@ export default function SectionOnePartTwo() {
             <Col>
               <TrackVisility partialVisibility once>
                 {
-                  ({ isVisible }) => isVisible && <object type="image/svg+xml" data="svg/manufacturing-contribution-mobile.svg" />
+                  ({ isVisible }) => isVisible && <object type="image/svg+xml" data="svg/id/manufacturing-contribution.svg" />
                 }
               </TrackVisility>
             </Col>
@@ -84,9 +90,9 @@ export default function SectionOnePartTwo() {
         </div>
 
         <p>
-          Home to the sixth largest global economy in 2019 at around US$3 trillion, 
-          ASEAN is projected to grow at an average of 4.9% per annum for the next decade. 
-          As a core growth driver, manufacturing contributes about US$670 billion or 21% to the region's GDP in 2018.
+          Sebagai kawasan dengan tingkat perekonomian keenam terbesar di dunia di tahun 2019, yaitu sekitar USD 3 triliun, 
+          ASEAN diperkirakan akan terus berkembang dengan tingkat pertumbuhan rata-rata sebesar 4,9% per tahun untuk satu dekade berikutnya. 
+          Sebagai motor utama pertumbuhan, sektor manufaktur turut menyumbang lebih kurang USD670 milyar atau 21% dari GDP kawasan ini pada tahun 2018.
         </p>
       </Slide>
       <img src="img/s1-p2-bgl.svg" className={styles['bg-left']}/>

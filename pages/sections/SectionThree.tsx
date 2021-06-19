@@ -7,9 +7,13 @@ import styles from './styles/SectionThree.module.scss'
 export default function SectionThree() {
   return (
     <div id="section-three" className={`section ${styles['section-three']}`}>
-      <h2>Challenges of racing up the</h2>
+      <h2>
+        Tantangan yang dihadapi dalam penerapan
+      </h2>
       <div className={styles['underline']} />
-      <h1>INDUSTRY 4.0 LADDER</h1>
+      <h1>
+        konsep Industri 4.0
+      </h1>
 
       <div className="space-div" />
       <TrackVisility once>
@@ -20,17 +24,19 @@ export default function SectionThree() {
       <div className="space-div" />
 
       <p>
-        With a renewed urgency to commit to Industry 4.0, ASEAN manufacturers are now rushing headlong into technological upgrades. 39% of manufacturers have implemented a nerve-centre, or control-tower, approach to increase end-to-end supply-chain transparency.
+        Seiring mendesaknya penerapan konsep Industri 4.0, para produsen di kawasan ASEAN saat ini berlomba melakukan upgrade teknologi. 
+        Sebanyak 39% dari para produsen tersebut telah membangun sebuah nerve-centre, atau control-tower untuk meningkatkan transparansi rantai supply yang menyeluruh.
       </p>
 
       <div className="space-div" />
       <h3>
-        Around a quarter are fast tracking automation programs to stem worker shortages arising from COVID-19.
+        Sebanyak 25% dari seluruh program yang diterapkan adalah terkait dengan program automasi cepat untuk mengatasi kekurangan jumlah karyawan akibat COVID-19.
       </h3>
       <div className="space-div" />
 
       <p>
-        While the escalated pace of change is impressive, the race to becoming smart factories of tomorrow is marred with three challenges: data silos, lack of skilled managers and cybersecurity threats.
+        Walaupun laju perubahan yang terjadi hingga saat ini cukup menggembirakan, perubahan meraih konsep pabrik pintar atau smart factory sangat dipengaruhi oleh tiga masalah utama: 
+        data silos, kurangnya manajer dengan pengetahuan mumpuni dan ancaman keamanan siber.
       </p>
 
       <IndustryChallenges />

@@ -15,7 +15,7 @@ export default function CaseCard({ number, description, href, img }) {
         </div>
         <div>
           <a href={href} target="_blank">
-            Learn More 
+            Informasi lebih lanjut
           </a>
         </div>
       </div>
