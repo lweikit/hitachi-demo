@@ -5,6 +5,7 @@
     margin: 0 25px;
     width: 125px;
   }
+  cursor: pointer;
 }
 .desktop {
   @include desktop { display: block }
