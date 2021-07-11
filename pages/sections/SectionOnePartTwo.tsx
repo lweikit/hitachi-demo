@@ -33,21 +33,21 @@ export default function SectionOnePartTwo() {
               <div>
                 <Row>
                   <Col>
-                    <object type="image/svg+xml" data="svg/id/internet-of-things.svg" />
+                    <object type="image/svg+xml" data="svg/vn/internet-of-things.svg" />
                   </Col>
                   <Col>
-                    <object type="image/svg+xml" data="svg/id/big-data.svg" />
+                    <object type="image/svg+xml" data="svg/vn/big-data.svg" />
                   </Col>
                   <Col>
-                    <object type="image/svg+xml" data="svg/id/cloud-based-technologies.svg" />
+                    <object type="image/svg+xml" data="svg/vn/cloud-based-technologies.svg" />
                   </Col>
                 </Row>
                 <Row>
                   <Col xs={{ size: 4, offset: 2 }}>
-                    <object type="image/svg+xml" data="svg/id/artificial-intelligence.svg" />
+                    <object type="image/svg+xml" data="svg/vn/artificial-intelligence.svg" />
                   </Col>
                   <Col xs={{ size: 4 }}>
-                    <object type="image/svg+xml" data="svg/id/advanced-manufacturing.svg" />
+                    <object type="image/svg+xml" data="svg/vn/advanced-manufacturing.svg" />
                   </Col>
                 </Row>
               </div>
@@ -73,7 +73,7 @@ export default function SectionOnePartTwo() {
         <div className="desktop">
           <Row>
             <Col>
-              <object type="image/svg+xml" data="svg/id/manufacturing-contribution.svg" />
+              <object type="image/svg+xml" data="svg/vn/manufacturing-contribution.svg" />
             </Col>
           </Row>
         </div>
@@ -82,7 +82,7 @@ export default function SectionOnePartTwo() {
             <Col>
               <TrackVisility partialVisibility once>
                 {
-                  ({ isVisible }) => isVisible && <object type="image/svg+xml" data="svg/id/manufacturing-contribution.svg" />
+                  ({ isVisible }) => isVisible && <object type="image/svg+xml" data="svg/vn/manufacturing-contribution.svg" />
                 }
               </TrackVisility>
             </Col>

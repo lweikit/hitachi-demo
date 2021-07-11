@@ -28,7 +28,7 @@ export default function SectionOnePartFour() {
           ({ isVisible }) => isVisible && (
             <Row>
               <Col>
-                <object type="image/svg+xml" data="svg/id/productivity-1.svg" />
+                <object type="image/svg+xml" data="svg/vn/productivity-1.svg" />
               </Col>
             </Row>
           )

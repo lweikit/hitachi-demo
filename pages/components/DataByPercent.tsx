@@ -9,10 +9,10 @@ export default function DataByPercent() {
         ({ isVisible }) => isVisible && (
           <div>
             <div>
-              <object className={styles['svg']} type="image/svg+xml" data="svg/id/42p.svg"/>
+              <object className={styles['svg']} type="image/svg+xml" data="svg/vn/42p.svg"/>
             </div>
             <div>
-              <object className={styles['svg']} type="image/svg+xml" data="svg/id/92p.svg"/>
+              <object className={styles['svg']} type="image/svg+xml" data="svg/vn/92p.svg"/>
             </div>
           </div>
         )
