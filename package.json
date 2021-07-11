@@ -7,7 +7,11 @@
     "build": "next build && next export -o build && touch build/.nojekyll",
     "start": "next start",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build -t"
+    "deploy": "gh-pages -d build -t",
+    "predeploy-id": "npm run build",
+    "deploy-id": "gh-pages -d build -t -b id",
+    "predeploy-vn": "npm run build",
+    "deploy-vn": "gh-pages -d build -t -b vn"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.32",
