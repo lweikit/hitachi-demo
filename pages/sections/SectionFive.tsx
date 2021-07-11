@@ -8,11 +8,11 @@ export default function SectionFive() {
   return (
     <div id="section-five" className={`section ${styles['section-five']}`}>
       <h3>
-        Ingin mengetahui bagaimana Hitachi Smart Manufacturing dapat membantu Anda?
+        Bạn muốn tìm hiểu thêm về cách thức nền tảng Sản xuất thông minh Hitachi hỗ trợ bạn?
       </h3>
       <div className="space-div" />
       <h6>
-        Klik pada salah satu kisah-kisah berikut untuk mengetahui lebih lanjut.
+        Nhấp vào một trong các nghiên cứu tình huống của chúng tôi để tìm hiểu thêm.
       </h6>
 
       <Row>
@@ -21,7 +21,7 @@ export default function SectionFive() {
             <Col lg={{ size: 6 }}>
               <CaseCard 
                 number={'01'}
-                description={'Pivot Power - Bagaimana GM dan Hitachi bertransformasi dari industri otomotif ke masker medis dalam waktu 6 hari'}
+                description={'Pivot Power - Cách GM và Hitachi chuyển từ ô tô sang khẩu trang y tế trong 6 ngày'}
                 href={'http://social-innovation.hitachi/en-sg/case_studies/pivot-power-gm-hitachi'}
                 img={'img/case-1.jpg'}
               />
@@ -29,7 +29,7 @@ export default function SectionFive() {
             <Col lg={{ size: 6 }}>
               <CaseCard 
                 number={'02'}
-                description={'Menerapkan pengetahuan operasional Hitachi pada fasilitas produksi JUKI untuk memperkenalkan teknologi terkini pada tempat kerja MONOZUKURI'}
+                description={'Sáp nhập các cơ sở sản xuất của JUKI cùng bí quyết vận hành của Hitachi để tạo ra những tiến bộ cho nơi làm việc của MONOZUKURI'}
                 href={'http://social-innovation.hitachi/en-sg/case_studies/juki'}
                 img={'img/case-2.jpg'}
               />
@@ -37,7 +37,7 @@ export default function SectionFive() {
             <Col lg={{ size: 6 }}>
               <CaseCard 
                 number={'03'}
-                description={'Semakin banyak pabrik yang beralih ke Remote Work di tengah pandemi COVID-19: Harapan Pabrik Pintar di masa depan'}
+                description={'Các nhà máy đang có xu hướng Làm việc từ xa trong bối cảnh đại dịch COVID-19: Kỳ vọng về các nhà máy thông minh của tương lai'}
                 href={'http://social-innovation.hitachi/en-sg/case_studies/smart-factory'}
                 img={'img/case-3.jpg'}
               />
@@ -45,7 +45,7 @@ export default function SectionFive() {
             <Col lg={{ size: 6 }}>
               <CaseCard 
                 number={'04'}
-                description={'Menorehkan Senyum dalam kehidupan sehari-hari – Industri makanan beku bertransformasi dengan teknologi digital'}
+                description={'Mang lại nụ cười cho cuộc sống hàng ngày của mỗi chúng ta - Ngành công nghiệp thực phẩm đông lạnh đang phát triển nhờ công nghệ kỹ thuật số'}
                 href={'http://social-innovation.hitachi/en-sg/case_studies/nichireifoods'}
                 img={'img/case-4.jpg'}
               />
@@ -56,9 +56,9 @@ export default function SectionFive() {
       <div className="space-div" />
       
       <h6>
-        Klik
-        <a href="https://www.hitachi.com.sg/SIB-smartmanufacturing/references.pdf"> <u>di sini</u> </a> 
-        untuk mengunduh rujukan infografik ini.
+        Nhấp vào 
+        <a href="https://www.hitachi.com.sg/SIB-smartmanufacturing/references.pdf"> <u>đây</u> </a> 
+        để tải xuống tài liệu tham khảo cho phần đồ họa thông tin này.
       </h6>
     </div>
   )

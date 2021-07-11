@@ -8,7 +8,7 @@ export default function SectionOnePartFive() {
   return (
     <div className={`section ${styles['part-five']}`}>
       <h4>
-        Keuntungan dari tingkat produktivitas sektor manufaktur
+        Tăng năng suất sản xuất
       </h4>
       <div className={styles['underline']} />
 
@@ -18,7 +18,7 @@ export default function SectionOnePartFive() {
         </Col>
         <Col>
           <h5>
-            dari tahun 2008 sampai dengan 2017
+            Từ năm 2008 đến năm 2017
           </h5>
         </Col>
         <Col xs={{ size: 2 }} lg={{ size: 1 }}>
@@ -52,9 +52,9 @@ export default function SectionOnePartFive() {
               <div>
                 <img src="img/s1-p5-bg.jpg" className={bgClass} />
                 <p className={pClass}>
-                  Industri 4.0 menjanjikan perubahan melalui peningkatan nilai manufaktur suatu kawasan. 
-                  Saat ini penerapannya masih jauh tertinggal dari China yang telah banyak melalukan investasi dalam automasi dan robot dalam 10 tahun terakhir. 
-                  Investasi tersebut terbukti meningkatkan produktivitas RRC sebesar 84%, berbanding hanya 38% secara rata-rata untuk kawasan ASEAN.
+                  Công nghiệp 4.0 hứa hẹn sẽ làm thay đổi điều đó bằng cách nâng cao giá trị sản xuất của khu vực. 
+                  Tuy nhiên, tốc độ áp dụng hiện nay tụt hậu hơn so với Trung Quốc, quốc gia đã đầu tư rất nhiều vào ngành tự động hóa và robot trong 10 năm qua. 
+                  Bước đi này đã giúp Trung Quốc tăng năng suất đến 84%, so với mức tăng trung bình 38% của khu vực ASEAN.
                 </p>
           
                 <div className={lineClass}>
@@ -64,7 +64,7 @@ export default function SectionOnePartFive() {
                 </div>
           
                 <h3 className={hClass}>
-                  COVID-19 MUNCUL DAN SEMUANYA BERUBAH
+                  SAU ĐÓ, COVID-19 XUẤT HIỆN VÀ ĐÃ LÀM THAY ĐỔI MỌI THỨ
                 </h3>
               </div>
             )

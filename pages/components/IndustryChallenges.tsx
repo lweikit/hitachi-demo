@@ -7,9 +7,9 @@ import styles from './styles/IndustryChallenges.module.scss'
 export default function IndustryChallenges() {
   const [activeIndex, setActiveIndex] = useState(0)
   const marks = {
-    0: 'Data silos',
-    1: 'Kurangnya manajer yang mumpuni',
-    2: 'Ancaman keamanan siber',
+    0: 'Dữ liệu trong kho chứa',
+    1: 'Thiếu nhà quản lý có kinh nghiệm',
+    2: 'Các mối đe dọa về an ninh mạng',
   }
   return (
     <div>
@@ -43,10 +43,10 @@ export default function IndustryChallenges() {
         activeIndex == 0 && (
           <div className={styles['description']}>
             <p>
-              Menurut penelitian IDC, data manufaktur sangat jarang tersimpan dalam satu penyimpanan data atau sistem, tetapi tersebar di beberapa tempat.
+              Theo một nghiên cứu của IDC, dữ liệu về hoạt động sản xuất hiếm khi được đặt trong một hệ thống hoặc kho dữ liệu chung, mà thường là trong các hệ thống bao kín.
             </p>
             <p>
-              Para operator dan teknisi harus secara manual mencari informasi tersebut dari sistem yang berbeda melalui proses yang rumit dan menghabiskan banyak waktu– yang sering sekali menghambat inovasi serta kolaborasi dalam perusahaan.
+              Các nhà điều hành và kỹ sư phải chắp nối thông tin lại với nhau theo cách thủ công từ các hệ thống được bao kín này trong một quy trình tẻ nhạt và tốn thời gian - điều này đương nhiên sẽ cản trở sự đổi mới và làm thui chột dần khả năng hợp tác trong một công ty.
             </p>
           </div>
         ) 
@@ -55,7 +55,7 @@ export default function IndustryChallenges() {
         activeIndex == 1 && (
           <div className={styles['description']}>
             <p>
-              Sebuah penelitian yang dilakukan oleh McKinsey menunjukkan bahwa banyak perusahaan yang berada di kawasan ASEAN tidak memiliki manajer yang  memahami teknologi serta inovasi terbaru dalam menerapkan strategi informasi, dan juga kurangnya pengetahuan akan solusi-solusi yang dapat mengoptimalkan proses kerja.
+              Một nghiên cứu của McKinsey đã tiết lộ rằng các công ty trong khu vực ASEAN đang thiếu các nhà quản lý hiểu rõ các công nghệ mới và tiến trình đổi mới để thực hiện đúng chiến lược chuyển đổi, cũng như không đủ hiểu biết về khả năng tối ưu hóa quy trình làm việc của tất cả các giải pháp mới này.
             </p>
           </div>
         )
@@ -64,10 +64,10 @@ export default function IndustryChallenges() {
         activeIndex == 2 && (
           <div className={styles['description']}>
             <p>
-              Masalah ini telah ada sejak penggunaan mesin dalam proses produksi. Konsep Industri 4.0 juga sangat menekankan pada bahaya yang berasal dari dunia siber, seperti yang tertera dalam sebuah artikel dari Deloitte.
+              Rủi ro đối với các nhà sản xuất đã và vẫn tồn tại miễn là hoạt động sản xuất vẫn được cơ giới hóa. Tuy nhiên, cho đến hiện tại, Công nghiệp 4.0 báo trước những bước nhảy lớn nhất về rủi ro trong môi trường mạng, như đã được nhấn mạnh trong một nghiên cứu của Deloitte.
             </p>
             <p>
-              Malware canggih dengan zero-day exploit dan menyerang gawai-gawai rentan dan dapat menyebar nyaris tanpa intervensi manusia  memiliki risiko besar dan saat ini telah menjadi hal yang menakutkan bagi banyak pegiat IT/TO. Trend ini semakin menekankan kebutuhan akan produsen gawai IoT dengan fitur keamanan yang kokoh.
+              Phần mềm độc hại tiên tiến, được trang bị các phương thức khai thác lỗ hổng zero-day, tự động nhắm mục tiêu vào các thiết bị dễ bị tấn công và lây lan vì con người ít can thiệp, hoàn toàn có khả năng áp đảo một nhân viên bảo mật CNTT/Công nghệ vận hành (OT) vốn đã yếu kém. Xu hướng đáng lo ngại này làm nổi bật nhu cầu sản xuất các thiết bị tăng cường cơ chế bảo mật của các nhà sản xuất thiết bị IoT.
             </p>
           </div>
         )

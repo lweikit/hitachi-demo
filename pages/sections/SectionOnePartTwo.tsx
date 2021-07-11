@@ -9,7 +9,7 @@ export default function SectionOnePartTwo() {
     <div className={`section ${styles['part-two']}`}>
       <Slide top>
         <h3>
-          Pada tahun 2019, negara-negara di kawasan ASEAN berada di tahap awal dalam menerapkan konsep Industri 4.0.
+          Vào năm 2019, các nước ASEAN mới bắt đầu đón nhận nền Công nghiệp 4.0
         </h3>
         <div className="space-div" />
         
@@ -19,7 +19,7 @@ export default function SectionOnePartTwo() {
           </Col>
           <Col>
             <h4>
-              5 faktor penting dalam konsep Industri 4.0
+              5 thành phần chính của ngành Công nghiệp 4.0
             </h4>
           </Col>
           <Col xs={{ size: 2 }} lg={{ size: 1 }}>
@@ -62,7 +62,7 @@ export default function SectionOnePartTwo() {
           </Col>
           <Col>
             <h4>
-              Seberapa  pentingkah sektor manufaktur di kawasan ASEAN?
+              Hoạt động sản xuất quan trọng như thế nào đối với khu vực ASEAN?
             </h4>
           </Col>
           <Col xs={{ size: 2 }} lg={{ size: 1 }}>
@@ -90,9 +90,8 @@ export default function SectionOnePartTwo() {
         </div>
 
         <p>
-          Sebagai kawasan dengan tingkat perekonomian keenam terbesar di dunia di tahun 2019, yaitu sekitar USD 3 triliun, 
-          ASEAN diperkirakan akan terus berkembang dengan tingkat pertumbuhan rata-rata sebesar 4,9% per tahun untuk satu dekade berikutnya. 
-          Sebagai motor utama pertumbuhan, sektor manufaktur turut menyumbang lebih kurang USD670 milyar atau 21% dari GDP kawasan ini pada tahun 2018.
+          Là khu vực có nền kinh tế lớn thứ sáu toàn cầu vào năm 2019 với khoảng 3 nghìn tỷ đô la Mỹ, ASEAN được dự báo sẽ tăng trưởng trung bình 4,9% mỗi năm trong thập kỷ tới. 
+          Với vai trò là động lực thúc đẩy tăng trưởng cốt lõi, ngành sản xuất đóng góp khoảng 670 tỷ đô la Mỹ hay 21% vào GDP của khu vực trong năm 2018.
         </p>
       </Slide>
       <img src="img/s1-p2-bgl.svg" className={styles['bg-left']}/>

@@ -10,7 +10,7 @@ export default function SectionFour() {
       <img src="img/s4-bgr.svg" className={styles['bg-right']} />
       <div>
         <h2>
-          Mengembangkan pabrik pintar dengan
+          Xây dựng nhà máy thông minh với 
         </h2>
         <div className={styles['underline']} />
         <h1>
@@ -20,8 +20,8 @@ export default function SectionFour() {
 
       <div>
         <p>
-          Melihat masa depan sektor manufaktur ASEAN yang berpotensi besar, Hitachi mengambil langkah awal dengan mendirikan Lumada Centre di Thailand pada tahun 2018. 
-          Sebagai pusat layanan digital, Lumada bertujuan untuk melengkapi perusahaan-perusahaan di Asia Tenggara dengan keahlian IoT dan Analisis big data saat mereka memasuki era Industri 4.0.
+          Với niềm tin chắc chắn vào tương lai ngành sản xuất của khu vực ASEAN, Hitachi đã thực hiện bước đầu tiên là thành lập Trung tâm Lumada tại Thái Lan vào năm 2018. 
+          Hoạt động với vai trò như một trung tâm dịch vụ kỹ thuật số, mục đích của Lumada là trang bị năng lực về IoT, phân tích dữ liệu lớn cho các công ty khu vực Đông Nam Á khi họ bước lên nấc thang của nền Công nghiệp 4.0.
         </p>
       </div>
 
@@ -33,14 +33,13 @@ export default function SectionFour() {
       </div>
 
       <p>
-        Lumada merupakan wadah IoT yang memungkinkan Anda dan Hitachi secara bersama menciptakan solusi digital sesuai dengan kebutuhan bisnis Anda. 
-        Cara ini memberikan akses pada teknologi canggih dari Hitachi melalui analisis data yang kemudian digunakan sebagai nilai tambah pada proses operasional bisnis Anda dengan menerapkan analisis big data dan kecerdasan artifisial.
+        Lumada là một nền tảng IoT cho phép bạn và Hitachi cùng tạo ra các giải pháp kỹ thuật số tùy chỉnh để phù hợp với nhu cầu kinh doanh của bạn. 
+        Nền tảng này sẽ cấp quyền truy cập vào các công nghệ tiên tiến của Hitachi thông qua phân tích dữ liệu của bạn, sau đó sử dụng dữ liệu này để giúp bạn tăng giá trị cho hoạt động kinh doanh thông qua việc triển khai hoạt động phân tích dữ liệu lớn và trí tuệ nhân tạo.
       </p>
 
       <p>
-        Dengan pengalaman luas dari kerja sama dengan banyak produsen. Hitachi paham bahwa konsep pabrik pintar dan analisis data dapat mengintimidasi banyak orang. 
-        Akan tetapi, banyak produsen yang semakin mampu menerima setelah mereka mengetahui lebih lanjut bahwa teknologi-teknologi baru  dapat mengurangi biaya operasional, 
-        meningkatkan produktivitas dan pada akhirnya meningkatkan keuntungan.
+        Sau khi đã hợp tác chặt chẽ với các nhà sản xuất, Hitachi hiểu rằng khi nói về nhà máy thông minh và phân tích dữ liệu thoạt nghe dường như dễ gây cảm giác sợ hãi. 
+        Tuy nhiên, nhiều nhà sản xuất trở nên dễ tiếp nhận hơn sau khi biết rõ cách thức mà công nghệ mới giúp giảm chi phí, nâng cao năng suất và cuối cùng là tăng lợi nhuận cho họ.
       </p>
 
       <div className="space-div" />
@@ -49,8 +48,8 @@ export default function SectionFour() {
       <div className={styles['quote-open']}>&#8220;</div>
 
       <div className={styles['quote-description']}>
-        &#8220;Sektor Manufaktur ASEAN sangat membutuhkan transformasi digital tidak hanya untuk meningkatkan Cost Competitiveness tetapi juga Risk Competitiveness. 
-        Kecerdasan Artifisial dan Analitis yang merupakan inti dari solusi Smart Manufacturing dari Hitachi dapat membantu.&#8221;
+        &#8220;Ngành sản xuất khu vực ASEAN cần chuyển đổi số để cải thiện không chỉ Năng lực cạnh tranh về chi phí mà còn cả Khả năng cạnh tranh về rủi ro. 
+        Các thành phần cốt lõi của giải pháp Sản xuất thông minh của Hitachi là Trí tuệ nhân tạo (AI) và Phân tích có thể hỗ trợ các khía cạnh này.&#8221;
       </div>
 
       <div className="space-div" />
@@ -60,9 +59,9 @@ export default function SectionFour() {
             <img className={styles['quote-pic']} src="img/Akihiro-Ohashi.jpg" />
           </Col>
           <Col className="align-left" xs={{ size: 7 }}>
-            <div className={styles['quote-by']}>Bpk. Akihiro Ohashi</div>
-            <div className={styles['quote-by']}>Executive Director</div>
-            <div className={styles['quote-by']}>ICT Solutions Business</div>
+            <div className={styles['quote-by']}>Ông Akihiro Ohashi</div>
+            <div className={styles['quote-by']}>Giám đốc điều hành</div>
+            <div className={styles['quote-by']}>Bộ phận kinh doanh giải pháp CNTT-Truyền thông</div>
             <div className={styles['quote-by']}>Hitachi Asia (Thailand) Co., Ltd</div>
           </Col>
         </Row>
@@ -72,7 +71,7 @@ export default function SectionFour() {
       <div className="space-div" />
 
       <p>
-        Selain membantu penerapan pabrik pintar, Hitachi juga bertujuan membantu sektor logistik dengan penggunaan teknologi pintar pada seluruh sektor logistik dan jaringan pengirimannya.
+        Bên cạnh việc khởi động các nhà máy thông minh, Hitachi cũng đặt mục tiêu tăng cường lĩnh vực hậu cần bằng cách kết hợp các công nghệ thông minh trên toàn bộ mạng lưới giao nhận và hậu cần.
       </p>
 
       <div className="space-div" />
@@ -81,14 +80,14 @@ export default function SectionFour() {
       <div className="space-div" />
 
       <h3>
-        Pada tahun 2019, Hitachi meluncurkan layanan bersama untuk kendaraan komersial di Thailand.
+        Vào năm 2019, Hitachi đã triển khai dịch vụ chia sẻ xe thương mại tại Thái Lan.
       </h3>
 
       <div className="space-div" />
       <div className="space-div" />
 
       <p className={styles['float']}>
-        Melalui layanan ini, para pengusaha akan <a href="https://meeit.biz/en/service/service_tst_ai_logistics/" target="_blank"><u>diuntungkan</u></a> dengan penggunaan kendaraan di luar layanan yang efisien dan pengiriman kargo bersama untuk tujuan yang berdekatan.
+        Với dịch vụ này, các chủ doanh nghiệp có thể được <a href="https://meeit.biz/en/service/service_tst_ai_logistics/" target="_blank"><u>hưởng lợi</u></a> từ việc tận dụng hiệu quả các xe không sử dụng trong đội xe của họ và thực hiện hoạt động giao nhận hàng chung cho các hàng hóa có điểm đến cuối gần nhau.
       </p>
 
       <img src="img/s4-bg.jpg" className={`bg ${styles['bg']}`} />
@@ -104,11 +103,11 @@ export default function SectionFour() {
       <div className="space-div" />
 
       <h3>
-        Tidak puas dengan pencapaiannya saat ini, Hitachi terus mengembangkan kemampuan Lumada melalui kerja sama dengan beberapa mitra penelitian.
+        Không dừng lại ở đó, Hitachi đang phát triển hơn nữa năng lực của Lumada thông qua các quan hệ đối tác nghiên cứu.
       </h3>
 
       <p>
-        Melalui kerja sama dengan beberapa mitra penelitian, Hitachi mampu menawarkan solusi bagi produsen dalam tiga area.
+        Thông qua quan hệ đối tác nghiên cứu với các công ty công nghệ, Hitachi có thể cung cấp giải pháp cho các nhà sản xuất trong ba lĩnh vực.
       </p>
 
       <LumadaSolutions />

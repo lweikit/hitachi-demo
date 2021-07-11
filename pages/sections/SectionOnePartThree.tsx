@@ -5,11 +5,11 @@ export default function SectionOnePartThree() {
   return (
     <div className={`section ${styles['part-three']}`}>
       <h4>
-        Volume sektor manufaktur negara-negara ASEAN
+        Quy mô ngành sản xuất của khu vực ASEAN
       </h4>
       <div className={styles['underline']} />
       <h5>
-        terhadap GDP keseluruhan tiap negara di tahun 2018
+        so với tổng GDP của mỗi nước trong năm 2018
       </h5>
 
       <div className="space-div" />
@@ -23,8 +23,8 @@ export default function SectionOnePartThree() {
       <div className="space-div" />
 
       <p>
-        Walaupun memiliki volume yang cukup besar, sektor manufaktur ASEAN hanya menempati posisi keempat di dunia setelah China, Amerika Serikat dan Jerman. 
-        Adapun mengenai tingkat produktivitas rata-rata,  negara-negara di kawasan ASEAN dengan kecuali Singapura berada di bawah Amerika Serikat dan Jerman.
+        Mặc dù có quy mô như vậy, nhưng lĩnh vực sản xuất của khu vực ASEAN chỉ đứng thứ tư trên thế giới, sau Trung Quốc, Hoa Kỳ và Đức. 
+        Về năng suất trung bình, tất cả các nước thành viên ASEAN, ngoại trừ Singapore, đều đạt điểm thấp hơn đáng kể so với Hoa Kỳ và Đức.
       </p>
       <img src="svg/globe.svg" className={styles['bg']} />
     </div>

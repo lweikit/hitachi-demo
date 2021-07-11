@@ -8,28 +8,28 @@ export default function LumadaSolutions() {
       <Col xs={{ size: 12 }} lg={{ size: 4 }}>
         <object className={styles['svg']} type="image/svg+xml" data="svg/increase-productivity.svg"/>
         <h4 className={styles['bold']}>
-          Meningkatkan Produktivitas Produsen
+          Tăng năng suất sản xuất
         </h4>
         <p>
-          Menganalisis data yang diperoleh dari lokasi pabrik untuk mengoptimalkan pengoperasian pabrik
+          Phân tích dữ liệu thu thập từ các cơ sở sản xuất để tối ưu hóa hoạt động của nhà máy
         </p>
       </Col>
       <Col xs={{ size: 12 }} lg={{ size: 4 }}>
         <object className={styles['svg']} type="image/svg+xml" data="svg/optimise-logistics.svg"/>
         <h4 className={styles['bold']}>
-          Mengoptimalkan Logistik dengan Analisis Data
+          Tối ưu hóa ngành hậu cần nhờ phân tích dữ liệu
         </h4>
         <p>
-          Menganalisis kemacetan lalu lintas, penyimpanan dan lokasi pengiriman untuk perencanaan rute yang pintar (smart routing), mempersingkat jarak tempuh dan mempercepat waktu pengiriman
+          Phân tích các điểm tắc nghẽn giao thông, lưu trữ và giao nhận cho phép xác định tuyến đường thông minh, giúp tiết kiệm quãng đường đi và giao nhận nhanh hơn
         </p>
       </Col>
       <Col xs={{ size: 12 }} lg={{ size: 4 }}>
         <object className={styles['svg']} type="image/svg+xml" data="svg/predictive-maintenance.svg"/>
         <h4 className={styles['bold']}>
-          Perawatan Berjadwal dan Bantuan Jarak Jauh
+          Bảo trì dự đoán và hỗ trợ từ xa
         </h4>
         <p>
-          Melakukan perawatan berjadwal, bantuan jarak jauh secara real-time dan juga pelatihan jarak jauh bagi pekerja pada lini depan
+          Triển khai dịch vụ bảo trì dự đoán, hỗ trợ từ xa theo thời gian thực và đào tạo từ xa cho nhân viên làm việc trực tiếp với khách hàng
         </p>
       </Col>
     </Row>

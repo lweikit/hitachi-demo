@@ -8,11 +8,11 @@ export default function SectionThree() {
   return (
     <div id="section-three" className={`section ${styles['section-three']}`}>
       <h2>
-        Tantangan yang dihadapi dalam penerapan
+        Những thách thức khi chạy đua lên nấc thang Công nghiệp 4.0
       </h2>
       <div className={styles['underline']} />
       <h1>
-        konsep Industri 4.0
+        nghiệp 4.0
       </h1>
 
       <div className="space-div" />
@@ -24,19 +24,19 @@ export default function SectionThree() {
       <div className="space-div" />
 
       <p>
-        Seiring mendesaknya penerapan konsep Industri 4.0, para produsen di kawasan ASEAN saat ini berlomba melakukan upgrade teknologi. 
-        Sebanyak 39% dari para produsen tersebut telah membangun sebuah nerve-centre, atau control-tower untuk meningkatkan transparansi rantai supply yang menyeluruh.
+        Với nhu cầu cấp bách đổi mới để chuyển đổi sang Công nghiệp 4.0, các nhà sản xuất khu vực ASEAN hiện đang gấp rút nâng cấp công nghệ. 
+        39% nhà sản xuất đã triển khai phương pháp tiếp cận trung tâm đầu não hoặc tháp kiểm soát để tăng tính minh bạch trên toàn chuỗi cung ứng.
       </p>
 
       <div className="space-div" />
       <h3>
-        Sebanyak 25% dari seluruh program yang diterapkan adalah terkait dengan program automasi cepat untuk mengatasi kekurangan jumlah karyawan akibat COVID-19.
+        Khoảng một phần tư là số lượng các chương trình tự động hóa theo dõi nhanh giúp ngăn chặn tình trạng thiếu nhân công do đại dịch COVID-19 gây ra.
       </h3>
       <div className="space-div" />
 
       <p>
-        Walaupun laju perubahan yang terjadi hingga saat ini cukup menggembirakan, perubahan meraih konsep pabrik pintar atau smart factory sangat dipengaruhi oleh tiga masalah utama: 
-        data silos, kurangnya manajer dengan pengetahuan mumpuni dan ancaman keamanan siber.
+        Trong khi tốc độ thay đổi tăng nhanh một cách ấn tượng, thì cuộc đua để trở thành các nhà máy thông minh của tương lai sẽ bị hủy hoại do ba thách thức: 
+        kho chứa dữ liệu, thiếu các nhà quản lý có kinh nghiệm và các mối đe dọa về an ninh mạng.
       </p>
 
       <IndustryChallenges />

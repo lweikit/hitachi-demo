@@ -6,10 +6,10 @@ export default function SectionOnePartOne() {
       <div>
         <object type="image/svg+xml" data="svg/title.svg" width="100px" />
       </div>
-      <h2>Akselerasi di Kawasan ASEAN</h2>
+      <h2>Sự thay đổi nhanh chóng trong lĩnh của khu vực ASEAN</h2>
       <div className={styles['underline']}/>
-      <h1  className="no-margin">Sektor</h1>
-      <div className={styles['light-title']}>Manufaktur</div>
+      <h1  className="no-margin">vực</h1>
+      <div className={styles['light-title']}>sản xuất</div>
     </div>
   )
 }

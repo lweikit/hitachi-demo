@@ -33,36 +33,32 @@ export default function NavBar() {
         <Nav navbar className="mx-auto">
           <NavItem className={styles['quick-link']}>
             <NavLink tag={Link} to="section-one" spy={true} smooth={true}>
-              <div>Sektor</div>
-              <div>Manufaktur</div>
+              <div>Sản xuất của khu vực</div>
               <div>ASEAN</div>
             </NavLink>
           </NavItem>
           <NavItem className={styles['quick-link']}>
             <NavLink tag={Link} to="section-two" spy={true} smooth={true}>
-              <div>Transformasi</div>
-              <div>yang</div>
-              <div>Mendesak</div>
+              <div>Chuyển đổi</div>
+              <div>cấp thiết</div>
             </NavLink>
           </NavItem>
           <NavItem className={styles['quick-link']}>
             <NavLink tag={Link} to="section-three" spy={true} smooth={true}>
-              <div>Tantangan</div>
-              <div>dalam Era</div>
-              <div>Industri 4.0</div>
+              <div>Những thách thức của nền Công</div>
+              <div> nghiệp 4.0</div>
             </NavLink>
           </NavItem>
           <NavItem className={styles['quick-link']}>
             <NavLink tag={Link} to="section-four" spy={true} smooth={true}>
-              <div>Lumada</div>
-              <div>dari</div>
-              <div>Hitachi</div>
+              <div>Nền tảng Lumada</div>
+              <div> của Hitachi</div>
             </NavLink>
           </NavItem>
           <NavItem className={styles['quick-link']}>
             <NavLink tag={Link} to="section-five" spy={true} smooth={true}>
-              <div>Manufaktur</div>
-              <div>Pintar</div>
+              <div>Sản xuất</div>
+              <div>thông minh</div>
             </NavLink>
           </NavItem>
         </Nav>
