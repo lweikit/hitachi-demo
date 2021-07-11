@@ -1,0 +1,37 @@
+@import "../../../styles/utils.scss";
+
+.line-svg {
+  @include desktop { height: 7.5rem; }
+  @include mobile { height: 5rem; }
+}
+.line-teal {
+  fill:none;
+  stroke-miterlimit:10;
+  stroke-width:3px;
+  stroke:$c_teal;
+  stroke-dasharray: 167;
+  stroke-dashoffset: 167;
+  animation: draw-line 2s linear forwards;
+}
+.line-blue {
+  fill:none;
+  stroke-miterlimit:10;
+  stroke-width:3px;
+  stroke:$c_medium_blue;
+  stroke-dasharray: 167;
+  stroke-dashoffset: 167;
+  animation: draw-line 2s linear forwards;
+}
+.line-delay {
+  fill:none;
+  stroke-miterlimit:10;
+  stroke-width:3px;
+  stroke:url(#line-down-gradient);
+  stroke-dasharray: 167;
+  stroke-dashoffset: 167;
+  animation: draw-line 2s linear forwards 4s;
+}
+@keyframes draw-line { 
+  from {stroke-dashoffset: 167;}
+  to {stroke-dashoffset: 0;}
+}
