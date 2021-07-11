@@ -1,0 +1,17 @@
+@import "../../../styles/utils.scss";
+
+.part-two {
+  color: rgb(30, 57, 152);
+}
+.bg-left {
+  position: absolute;
+  width: 100%;
+  @include desktop { left: -100%; }
+  @include mobile { left: -75% ; }
+}
+.bg-right {
+  position: absolute;
+  width: 100%;
+  @include desktop { right: -100%; }
+  @include mobile { right: -75%; }
+}

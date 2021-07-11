@@ -1,0 +1,17 @@
+@import "../../../styles/utils.scss";
+
+.quick-link {
+  @include desktop {
+    margin: 0 25px;
+    width: 125px;
+  }
+  cursor: pointer;
+}
+.desktop {
+  @include desktop { display: block }
+  @include mobile { display: none }
+}
+.mobile {
+  @include desktop { display: none }
+  @include mobile { display: block }
+}
