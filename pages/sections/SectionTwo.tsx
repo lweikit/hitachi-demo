@@ -24,7 +24,7 @@ export default function SectionTwo() {
       <div className="space-div" />
 
       <h3>
-        COVID-19 mendesak harus dilakukan modernisasi operasional.
+        COVID-19 mendesak kebutuhan modernisasi operasional.
       </h3>
 
       <p>

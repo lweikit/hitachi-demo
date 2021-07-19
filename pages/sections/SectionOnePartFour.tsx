@@ -16,7 +16,7 @@ export default function SectionOnePartFour() {
           <object type="image/svg+xml" data="svg/id/mouseover.svg" />
         </Col>
         <Col>
-          <h5>tingkat produktivitas manufaktur ditetapkan sebagai nilai tambah setiap karyawan yang diukur setiap seribu USD sebagaimana tahun 2017</h5>
+          <h5>tingkat produktivitas manufaktur ditetapkan sebagai nilai tambah setiap karyawan yang diukur setiap ribuan USD sebagaimana tahun 2017</h5>
         </Col>
         <Col xs={{ size: 2 }} lg={{ size: 1 }}>
           <object type="image/svg+xml" data="svg/id/mouseover.svg" />

@@ -90,7 +90,7 @@ export default function SectionOnePartTwo() {
         </div>
 
         <p>
-          Sebagai kawasan dengan tingkat perekonomian keenam terbesar di dunia di tahun 2019, yaitu sekitar USD 3 triliun, 
+          Sebagai kawasan dengan tingkat perekonomian keenam terbesar di dunia pada tahun 2019, yaitu sekitar USD 3 triliun, 
           ASEAN diperkirakan akan terus berkembang dengan tingkat pertumbuhan rata-rata sebesar 4,9% per tahun untuk satu dekade berikutnya. 
           Sebagai motor utama pertumbuhan, sektor manufaktur turut menyumbang lebih kurang USD670 milyar atau 21% dari GDP kawasan ini pada tahun 2018.
         </p>

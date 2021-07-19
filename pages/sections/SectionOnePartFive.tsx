@@ -53,7 +53,7 @@ export default function SectionOnePartFive() {
                 <img src="img/s1-p5-bg.jpg" className={bgClass} />
                 <p className={pClass}>
                   Industri 4.0 menjanjikan perubahan melalui peningkatan nilai manufaktur suatu kawasan. 
-                  Saat ini penerapannya masih jauh tertinggal dari China yang telah banyak melalukan investasi dalam automasi dan robot dalam 10 tahun terakhir. 
+                  Saat ini penerapannya masih jauh tertinggal dari China yang telah banyak melalukan investasi dalam automasi dan robot pada 10 tahun terakhir. 
                   Investasi tersebut terbukti meningkatkan produktivitas RRC sebesar 84%, berbanding hanya 38% secara rata-rata untuk kawasan ASEAN.
                 </p>
           
