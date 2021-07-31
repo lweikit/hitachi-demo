@@ -4,7 +4,7 @@ export default function SectionOnePartOne() {
   return (
     <div className={`section ${styles['part-one']}`}>
       <div>
-        <object type="image/svg+xml" data="svg/title.svg" width="100px" />
+        <object type="image/svg+xml" data="svg/common/title.svg" width="100px" />
       </div>
       <h2>Akselerasi di Kawasan ASEAN</h2>
       <div className={styles['underline']}/>

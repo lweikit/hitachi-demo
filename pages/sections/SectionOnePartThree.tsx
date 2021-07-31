@@ -26,7 +26,7 @@ export default function SectionOnePartThree() {
         Walaupun memiliki volume yang cukup besar, sektor manufaktur ASEAN hanya menempati posisi keempat di dunia setelah China, Amerika Serikat dan Jerman. 
         Adapun mengenai tingkat produktivitas rata-rata,  negara-negara di kawasan ASEAN kecuali Singapura berada di bawah Amerika Serikat dan Jerman.
       </p>
-      <img src="svg/globe.svg" className={styles['bg']} />
+      <img src="svg/common/globe.svg" className={styles['bg']} />
     </div>
   )
 }
