@@ -59,9 +59,9 @@ export default function SectionFour() {
             <img className={styles['quote-pic']} src="img/Akihiro-Ohashi.jpg" />
           </Col>
           <Col className="align-left" xs={{ size: 7 }}>
-            <div className={styles['quote-by']}>Ông Akihiro Ohashi</div>
-            <div className={styles['quote-by']}>Giám đốc điều hành</div>
-            <div className={styles['quote-by']}>Bộ phận kinh doanh giải pháp CNTT-Truyền thông</div>
+            <div className={styles['quote-by']}>Mr. Akihiro Ohashi</div>
+            <div className={styles['quote-by']}>Executive Director</div>
+            <div className={styles['quote-by']}>ICT Solutions Business</div>
             <div className={styles['quote-by']}>Hitachi Asia (Thailand) Co., Ltd</div>
           </Col>
         </Row>

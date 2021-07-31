@@ -8,7 +8,7 @@ export default function SectionThree() {
   return (
     <div id="section-three" className={`section ${styles['section-three']}`}>
       <h2>
-        Những thách thức khi chạy đua lên nấc thang Công nghiệp 4.0
+        Những thách thức khi chạy đua lên nấc thang
       </h2>
       <div className={styles['underline']} />
       <h1>

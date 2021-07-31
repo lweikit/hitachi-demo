@@ -8,11 +8,11 @@ export default function SectionTwo() {
   return (
     <div id="section-two" className={`section ${styles['section-two']}`}>
       <h2>
-        Nhu cầu chuyển
+        Nhu cầu chuyển đổi
       </h2>
       <div className={styles['underline']} />
       <h1>
-        đổi cấp thiết
+        cấp thiết
       </h1>
 
       <div className="space-div" />

@@ -46,13 +46,13 @@ export default function NavBar() {
           <NavItem className={styles['quick-link']}>
             <NavLink tag={Link} to="section-three" spy={true} smooth={true}>
               <div>Những thách thức của nền Công</div>
-              <div> nghiệp 4.0</div>
+              <div>nghiệp 4.0</div>
             </NavLink>
           </NavItem>
           <NavItem className={styles['quick-link']}>
             <NavLink tag={Link} to="section-four" spy={true} smooth={true}>
               <div>Nền tảng Lumada</div>
-              <div> của Hitachi</div>
+              <div>của Hitachi</div>
             </NavLink>
           </NavItem>
           <NavItem className={styles['quick-link']}>
