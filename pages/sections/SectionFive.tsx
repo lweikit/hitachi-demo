@@ -8,11 +8,11 @@ export default function SectionFive() {
   return (
     <div id="section-five" className={`section ${styles['section-five']}`}>
       <h3>
-        Ingin mengetahui bagaimana Hitachi Smart Manufacturing dapat membantu Anda?
+        หากคุณสนใจต้องการเรียนรู้เพิ่มเติมเกี่ยวกับบริการการผลิตอัจฉริยะของ Hitachi จะสามารถช่วยคุณได้อย่างไร
       </h3>
       <div className="space-div" />
       <h6>
-        Klik pada salah satu kisah-kisah berikut untuk mengetahui lebih lanjut.
+        กรุณากดเข้าดู เพื่อศึกษาในงานวิจัยของเราเพิ่มเติม
       </h6>
 
       <Row>
@@ -21,7 +21,10 @@ export default function SectionFive() {
             <Col lg={{ size: 6 }}>
               <CaseCard 
                 number={'01'}
-                description={'Pivot Power - Bagaimana GM dan Hitachi bertransformasi dari industri otomotif ke masker medis dalam waktu 6 hari'}
+                description={`เครื่องมือช่วยในการวิเคราะห์ข้อมูล - วิธีที่ GM และ
+                Hitachi เปลี่ยนจากการผลิตยานยนต์
+                เป็นการผลิตหน้ากากอนามัยใน 6 วัน
+                `}
                 href={'http://social-innovation.hitachi/en-sg/case_studies/pivot-power-gm-hitachi'}
                 img={'img/case-1.jpg'}
               />
@@ -29,7 +32,12 @@ export default function SectionFive() {
             <Col lg={{ size: 6 }}>
               <CaseCard 
                 number={'02'}
-                description={'Menerapkan pengetahuan operasional Hitachi pada fasilitas produksi JUKI untuk memperkenalkan teknologi terkini pada tempat kerja MONOZUKURI'}
+                description={`การควบคุมภาพรวมโรงงานผลิต JUKI
+                กับความรู้และทักษะ
+                ในการปฏิบัติการของ Hitachi 
+                เพื่อทำให้สำนักงาน MONOZUKURI 
+                ก้าวหน้าทางด้านการผลิต
+                `}
                 href={'http://social-innovation.hitachi/en-sg/case_studies/juki'}
                 img={'img/case-2.jpg'}
               />
@@ -37,7 +45,11 @@ export default function SectionFive() {
             <Col lg={{ size: 6 }}>
               <CaseCard 
                 number={'03'}
-                description={'Semakin banyak pabrik yang beralih ke Remote Work di tengah pandemi COVID-19: Harapan Pabrik Pintar di masa depan'}
+                description={`โรงงานเริ่มหันไปใช้
+                ระบบการทำงานระยะไกล
+                ในช่วงที่มีการแพร่ระบาดของไวรัสโคโรนาสายพันธุ์ใหม่: 
+                ความคาดหวังของโรงงานอัจฉริยะแห่งอนาคต
+                `}
                 href={'http://social-innovation.hitachi/en-sg/case_studies/smart-factory'}
                 img={'img/case-3.jpg'}
               />
@@ -45,7 +57,11 @@ export default function SectionFive() {
             <Col lg={{ size: 6 }}>
               <CaseCard 
                 number={'04'}
-                description={'Menorehkan Senyum dalam kehidupan sehari-hari – Industri makanan beku bertransformasi dengan teknologi digital'}
+                description={`มอบรอยยิ้มในชีวิตประจำวันของเรา – 
+                อุตสาหกรรมอาหารแช่แข็ง
+                กำลังวิวัฒนาการด้วย
+                เทคโนโลยีดิจิทัล
+                `}
                 href={'http://social-innovation.hitachi/en-sg/case_studies/nichireifoods'}
                 img={'img/case-4.jpg'}
               />
@@ -56,9 +72,7 @@ export default function SectionFive() {
       <div className="space-div" />
       
       <h6>
-        Klik
-        <a href="./references/references_id.pdf"> <u>di sini</u> </a> 
-        untuk mengunduh rujukan infografik ini.
+        กรุณากด<a href="./references/references_id.pdf"><u>ที่นี่</u></a>เพื่อดาวน์โหลดเอกสารอ้างอิงสำหรับรูปแบบอินโฟกราฟิกนี้
       </h6>
     </div>
   )

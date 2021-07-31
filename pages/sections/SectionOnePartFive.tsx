@@ -8,21 +8,21 @@ export default function SectionOnePartFive() {
   return (
     <div className={`section ${styles['part-five']}`}>
       <h4>
-        Keuntungan dari tingkat produktivitas sektor manufaktur
+        ผลกำไรในอุตสาหกรรมภาคการผลิต
       </h4>
       <div className={styles['underline']} />
 
       <Row>
         <Col xs={{ size: 2 }} lg={{ size: 1 }}>
-          <object type="image/svg+xml" data="svg/id/mouseover.svg" />
+          <object type="image/svg+xml" data="svg/th/mouseover.svg" />
         </Col>
         <Col>
           <h5>
-            dari tahun 2008 sampai dengan 2017
+            ตั้งแต่ปี 2008 ถึงปี 2017
           </h5>
         </Col>
         <Col xs={{ size: 2 }} lg={{ size: 1 }}>
-          <object type="image/svg+xml" data="svg/id/mouseover.svg" />
+          <object type="image/svg+xml" data="svg/th/mouseover.svg" />
         </Col>
       </Row>
 
@@ -31,7 +31,7 @@ export default function SectionOnePartFive() {
           ({ isVisible }) => isVisible && (
             <Row>
               <Col>
-                <object type="image/svg+xml" data="svg/id/productivity-2.svg" />
+                <object type="image/svg+xml" data="svg/th/productivity-2.svg" />
               </Col>
             </Row>
           )
@@ -52,9 +52,9 @@ export default function SectionOnePartFive() {
               <div>
                 <img src="img/s1-p5-bg.jpg" className={bgClass} />
                 <p className={pClass}>
-                  Industri 4.0 menjanjikan perubahan melalui peningkatan nilai manufaktur suatu kawasan. 
-                  Saat ini penerapannya masih jauh tertinggal dari China yang telah banyak melalukan investasi dalam automasi dan robot pada 10 tahun terakhir. 
-                  Investasi tersebut terbukti meningkatkan produktivitas RRC sebesar 84%, berbanding hanya 38% secara rata-rata untuk kawasan ASEAN.
+                อุตสาหกรรม 4.0 ให้สัญญาว่าจะเปลี่ยนแปลงตัวเลขดังกล่าว ด้วยการเร่งเพิ่มมูลค่าอุตสาหกรรมการผลิตในภูมิภาค แต่ด้วยการประยุกต์ใช้อุตสาหกรรม 4.0 ในปัจจุบัน <br/>
+                ยังตามหลังประเทศจีน ที่ได้มีการลงทุนอย่างเต็มที่ในด้านระบบเครื่องจักรอัตโนมัติและระบบหุ่นยนต์ใน 10 ปีที่ผ่านมา ยุทธศาสตร์นี้ทำให้ผลผลิตของประเทศจีน <br/>
+                เติบโตขึ้นอีกร้อยละ 84 เทียบกับค่าเฉลี่ยร้อยละ 38 ของภูมิภาคอาเซียน
                 </p>
           
                 <div className={lineClass}>
@@ -64,7 +64,7 @@ export default function SectionOnePartFive() {
                 </div>
           
                 <h3 className={hClass}>
-                  COVID-19 MUNCUL DAN SEMUANYA BERUBAH
+                  แต่แล้วก็เกิดการแพร่ระบาดของไวรัสโคโรนาสายพันธุ์ใหม่ ที่ทำให้เกิดการเปลี่ยนแปลงของสถานการณ์ 
                 </h3>
               </div>
             )

@@ -33,36 +33,32 @@ export default function NavBar() {
         <Nav navbar className="mx-auto">
           <NavItem className={styles['quick-link']}>
             <NavLink tag={Link} to="section-one" spy={true} smooth={true}>
-              <div>Sektor</div>
-              <div>Manufaktur</div>
-              <div>ASEAN</div>
+              <div>อุตสาหกรรมการผลิต</div>
+              <div>ในระดับภูมิภาคอาเซียน</div>
             </NavLink>
           </NavItem>
           <NavItem className={styles['quick-link']}>
             <NavLink tag={Link} to="section-two" spy={true} smooth={true}>
-              <div>Transformasi</div>
-              <div>yang</div>
-              <div>Mendesak</div>
+              <div>การปฏิรูป</div>
+              <div>อย่างเร่งด่วน</div>
             </NavLink>
           </NavItem>
           <NavItem className={styles['quick-link']}>
             <NavLink tag={Link} to="section-three" spy={true} smooth={true}>
-              <div>Tantangan</div>
-              <div>dalam Era</div>
-              <div>Industri 4.0</div>
+              <div>ความท้าทายของ</div>
+              <div>อุตสาหกรรม 4.0</div>
             </NavLink>
           </NavItem>
           <NavItem className={styles['quick-link']}>
             <NavLink tag={Link} to="section-four" spy={true} smooth={true}>
+              <div>Hitachi's</div>
               <div>Lumada</div>
-              <div>dari</div>
-              <div>Hitachi</div>
             </NavLink>
           </NavItem>
           <NavItem className={styles['quick-link']}>
             <NavLink tag={Link} to="section-five" spy={true} smooth={true}>
-              <div>Manufaktur</div>
-              <div>Pintar</div>
+              <div>อุตสาหกรรมการผลิต</div>
+              <div>อัจฉริยะ</div>
             </NavLink>
           </NavItem>
         </Nav>

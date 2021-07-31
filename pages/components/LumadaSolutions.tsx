@@ -8,28 +8,39 @@ export default function LumadaSolutions() {
       <Col xs={{ size: 12 }} lg={{ size: 4 }}>
         <object className={styles['svg']} type="image/svg+xml" data="svg/common/increase-productivity.svg"/>
         <h4 className={styles['bold']}>
-          Meningkatkan Produktivitas Produsen
+          การเพิ่มผลผลิต <br/>
+          ในอุตสาหกรรมการผลิต
         </h4>
         <p>
-          Menganalisis data yang diperoleh dari lokasi pabrik untuk mengoptimalkan pengoperasian pabrik
+          วิเคราะห์ข้อมูลที่รวบรวมจาก <br/>
+          ภาคส่วนการผลิตเพื่อปรับสมดุล <br/>
+          การปฏิบัติการในโรงงาน
         </p>
       </Col>
       <Col xs={{ size: 12 }} lg={{ size: 4 }}>
         <object className={styles['svg']} type="image/svg+xml" data="svg/common/optimise-logistics.svg"/>
         <h4 className={styles['bold']}>
-          Mengoptimalkan Logistik dengan Analisis Data
+          เพิ่มประสิทธิภาพด้านการขนส่ง <br/>
+          ด้วยระบบวิเคราะห์ข้อมูล
         </h4>
         <p>
-          Menganalisis kemacetan lalu lintas, penyimpanan dan lokasi pengiriman untuk perencanaan rute yang pintar (smart routing), mempersingkat jarak tempuh dan mempercepat waktu pengiriman
+          วิเคราะห์ความหนาแน่นของระบบจราจร พื้นที่จัดเก็บสินค้า <br/>
+          และสถานที่จัดส่ง <br/>
+          เพื่อสร้างเส้นทางพิเศษให้ระยะทางสั้นลงและ <br/>
+          จัดส่งสินค้าได้เร็วขึ้น
         </p>
       </Col>
       <Col xs={{ size: 12 }} lg={{ size: 4 }}>
         <object className={styles['svg']} type="image/svg+xml" data="svg/common/predictive-maintenance.svg"/>
         <h4 className={styles['bold']}>
-          Perawatan Berjadwal dan Bantuan Jarak Jauh
+          การคาดการณ์ <br/>
+          ระบบซ่อมบำรุง
         </h4>
         <p>
-          Melakukan perawatan berjadwal, bantuan jarak jauh secara real-time dan juga pelatihan jarak jauh bagi pekerja pada lini depan
+          การคาดการณ์ระบบซ่อมบำรุง <br/>
+          ระบบช่วยเหลือระยะไกลแบบทันการณ์ <br/>
+          และการฝึกอบรมระยะไกลสำหรับ <br/>
+          เจ้าหน้าที่หน้างาน
         </p>
       </Col>
     </Row>

@@ -7,19 +7,20 @@ export default function SectionOnePartFour() {
   return (
     <div className={`section ${styles['part-four']}`}>
       <h4>
-        Membandingkan tingkat produktivitas sektor manufaktur ASEAN
+        การเปรียบเทียบผลผลิตจากอุตสาหกรรมของระดับภูมิภาคอาเซียน
       </h4>
       <div className={styles['underline']} />
       
       <Row>
         <Col xs={{ size: 2 }} lg={{ size: 1 }}>
-          <object type="image/svg+xml" data="svg/id/mouseover.svg" />
+          <object type="image/svg+xml" data="svg/th/mouseover.svg" />
         </Col>
         <Col>
-          <h5>tingkat produktivitas manufaktur ditetapkan sebagai nilai tambah setiap karyawan yang diukur setiap ribuan USD sebagaimana tahun 2017</h5>
+          <h5>ผลผลิตจะกำหนดตามมูลค่าที่เพิ่มขึ้นต่อลูกจ้างในหนึ่งอัตรา</h5>
+          <h5>วัดเป็นหน่วยหลายพันดอลลาร์ ณ ปี 2017</h5>
         </Col>
         <Col xs={{ size: 2 }} lg={{ size: 1 }}>
-          <object type="image/svg+xml" data="svg/id/mouseover.svg" />
+          <object type="image/svg+xml" data="svg/th/mouseover.svg" />
         </Col>
       </Row>
 
@@ -28,7 +29,7 @@ export default function SectionOnePartFour() {
           ({ isVisible }) => isVisible && (
             <Row>
               <Col>
-                <object type="image/svg+xml" data="svg/id/productivity-1.svg" />
+                <object type="image/svg+xml" data="svg/th/productivity-1.svg" />
               </Col>
             </Row>
           )

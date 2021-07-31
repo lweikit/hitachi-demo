@@ -8,11 +8,11 @@ export default function SectionTwo() {
   return (
     <div id="section-two" className={`section ${styles['section-two']}`}>
       <h2>
-        Kebutuhan mendesak untuk melakukan 
+        การปฏิวัติ
       </h2>
       <div className={styles['underline']} />
       <h1>
-        Transformasi
+        อย่างเร่งด่วน
       </h1>
 
       <div className="space-div" />
@@ -24,13 +24,13 @@ export default function SectionTwo() {
       <div className="space-div" />
 
       <h3>
-        COVID-19 mendesak kebutuhan modernisasi operasional.
+        การแพร่ระบาดของไวรัสโคโรนาสายพันธุ์ใหม่ กระตุ้นให้ต้องสร้างระบบปฏิบัติการที่ทันสมัย
       </h3>
 
       <p>
-        Ketergantungan sektor manufaktur pada proses dan operasional yang manual serta kurangnya pengetahuan yang mendalam akan rantai supply merupakan masalah yang nyata. 
-        Kedua faktor tersebut menghambat kemampuan produsen untuk merespon dengan cepat jika terjadi permintaan di luar perkiraan. 
-        Modernisasi sangat dibutuhkan agar produsen dapat segera pulih dari pandemi.
+        การพึ่งพากระบวนการและการปฏิบัติการผลิตที่ต้องใช้แรงงานของมนุษย์ ผนวกกับการขาดวิสัยทัศน์ในการออกแบบ <br/>
+        ระบบโซ่อุปทานทำให้เป็นอุปสรรคต่อผู้ผลิตในการตอบสนองการขับเคลื่อนในยุคที่ความต้องการไม่แน่นอน <br/>
+        การปรับปรุงกระบวนการเหล่านี้ให้ทันสมัยขึ้นเป็นสิ่งจำเป็นสำหรับผู้ผลิตในการฟื้นตัวจากการระบาดแพร่ของไวรัสโคโรนาสายพันธุ์ใหม่ได้อย่างรวดเร็ว
       </p>
       
       <div className="space-div" />
@@ -42,7 +42,8 @@ export default function SectionTwo() {
 
       <div className="space-div" />
       <h3>
-        Secara singkat, COVID-19 dapat dikatakan semakin mendesak terjadinya transformasi di sektor manufaktur.
+        กล่าวได้ว่า การระบาดแพร่ของไวรัสโคโรนาสายพันธุ์ใหม่กำลังเป็นตัวขับเคลื่อนหลัก <br/>
+        สู่การปฏิรูปเร่งด่วนในอุตสาหกรรมภาคส่วนนี้
       </h3>
       <div className="space-div" />
 

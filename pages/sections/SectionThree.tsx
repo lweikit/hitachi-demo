@@ -8,11 +8,11 @@ export default function SectionThree() {
   return (
     <div id="section-three" className={`section ${styles['section-three']}`}>
       <h2>
-        Tantangan yang dihadapi dalam penerapan
+        ความท้าทายของการแข่งขัน
       </h2>
       <div className={styles['underline']} />
       <h1>
-        konsep Industri 4.0
+        ในภาคอุตสาหกรรม 4.0
       </h1>
 
       <div className="space-div" />
@@ -24,19 +24,20 @@ export default function SectionThree() {
       <div className="space-div" />
 
       <p>
-        Seiring mendesaknya penerapan konsep Industri 4.0, para produsen di kawasan ASEAN saat ini berlomba melakukan upgrade teknologi. 
-        Sebanyak 39% dari para produsen tersebut telah membangun sebuah nerve-centre, atau control-tower untuk meningkatkan transparansi rantai supply yang menyeluruh.
+        ด้วยความมุ่งมั่นที่จะพัฒนาไปสู่อุตสาหกรรม 4.0 อย่างรวดเร็วผู้ผลิตอาเซียนจึงเร่งพัฒนายกระดับทางเทคโนโลยี <br/>
+        ร้อยละ 39 ของผู้ผลิตได้นำระบบศูนย์กลางหรือศูนย์ควบคุมมาใช้ ซึ่งเป็นแนวทางในการ <br/>
+        เพิ่มความโปร่งใสของห่วงโซ่อุปทานจากต้นจนจบ
       </p>
 
       <div className="space-div" />
       <h3>
-        Sebanyak 25% dari seluruh program yang diterapkan adalah terkait dengan program automasi cepat untuk mengatasi kekurangan jumlah karyawan akibat COVID-19.
+        ร้อยละ 25 ของผู้ผลิตกำลังเร่งปรับใช้โปรแกรมระบบการทำงานอัตโนมัติเพื่อทดแทนการขาดแคลนแรงงานจาก สถานการณ์การระบาดแพร่ของไวรัสโคโรนาสายพันธุ์ใหม่
       </h3>
       <div className="space-div" />
 
       <p>
-        Walaupun laju perubahan yang terjadi hingga saat ini cukup menggembirakan, perubahan meraih konsep pabrik pintar atau smart factory sangat dipengaruhi oleh tiga masalah utama: 
-        data silos, kurangnya manajer dengan pengetahuan mumpuni dan ancaman keamanan siber.
+        แม้ว่าการเปลี่ยนแปลงที่เพิ่มขึ้นอย่างรวดเร็วนั้นสร้างความประทับใจ แต่การแข่งขันที่จะกลายเป็นโรงงานอัจฉริยะแห่งอนาคตนั้นเต็มไปด้วยความท้าทายสามประการ <br/>
+        ได้แก่: ความหลากหลายของข้อมูลที่ทำให้ไม่สามารถจัดข้อมูลให้เป็นหมวดหมู่ได้การขาดแคลนผู้จัดการที่มีฝีมือ และภัยคุกคามต่อความปลอดภัยทางออนไลน์
       </p>
 
       <IndustryChallenges />
