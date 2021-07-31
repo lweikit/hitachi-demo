@@ -57,7 +57,7 @@ export default function SectionFive() {
       
       <h6>
         Klik
-        <a href="references_id.pdf"> <u>di sini</u> </a> 
+        <a href="./references/references_id.pdf"> <u>di sini</u> </a> 
         untuk mengunduh rujukan infografik ini.
       </h6>
     </div>
