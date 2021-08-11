@@ -12,7 +12,7 @@ export default function SectionThree() {
       </h2>
       <div className={styles['underline']} />
       <h1>
-        nghiệp 4.0
+        Công nghiệp 4.0
       </h1>
 
       <div className="space-div" />
