@@ -15,7 +15,7 @@ export default function SectionOnePartTwo() {
         
         <Row>
           <Col xs={{ size: 2 }} lg={{ size: 1 }}>
-            <object type="image/svg+xml" data="svg/id/mouseover.svg" />
+            <object type="image/svg+xml" data="svg/vn/mouseover.svg" />
           </Col>
           <Col>
             <h4>
@@ -23,7 +23,7 @@ export default function SectionOnePartTwo() {
             </h4>
           </Col>
           <Col xs={{ size: 2 }} lg={{ size: 1 }}>
-            <object type="image/svg+xml" data="svg/id/mouseover.svg" />
+            <object type="image/svg+xml" data="svg/vn/mouseover.svg" />
           </Col>
         </Row>
 
@@ -58,7 +58,7 @@ export default function SectionOnePartTwo() {
         <div className="space-div" />
         <Row>
           <Col xs={{ size: 2 }} lg={{ size: 1 }}>
-            <object type="image/svg+xml" data="svg/id/mouseover.svg" />
+            <object type="image/svg+xml" data="svg/vn/mouseover.svg" />
           </Col>
           <Col>
             <h4>
@@ -66,7 +66,7 @@ export default function SectionOnePartTwo() {
             </h4>
           </Col>
           <Col xs={{ size: 2 }} lg={{ size: 1 }}>
-            <object type="image/svg+xml" data="svg/id/mouseover.svg" />
+            <object type="image/svg+xml" data="svg/vn/mouseover.svg" />
           </Col>
         </Row>
         

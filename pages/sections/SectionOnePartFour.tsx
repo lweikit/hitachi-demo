@@ -13,7 +13,7 @@ export default function SectionOnePartFour() {
       
       <Row>
         <Col xs={{ size: 2 }} lg={{ size: 1 }}>
-          <object type="image/svg+xml" data="svg/id/mouseover.svg" />
+          <object type="image/svg+xml" data="svg/vn/mouseover.svg" />
         </Col>
         <Col>
           <h5>
@@ -21,7 +21,7 @@ export default function SectionOnePartFour() {
           </h5>
         </Col>
         <Col xs={{ size: 2 }} lg={{ size: 1 }}>
-          <object type="image/svg+xml" data="svg/id/mouseover.svg" />
+          <object type="image/svg+xml" data="svg/vn/mouseover.svg" />
         </Col>
       </Row>
 
