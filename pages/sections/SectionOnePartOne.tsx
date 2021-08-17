@@ -8,8 +8,8 @@ export default function SectionOnePartOne() {
       </div>
       <h2>Sự thay đổi nhanh chóng của khu vực ASEAN</h2>
       <div className={styles['underline']}/>
-      <h1  className="no-margin">trong lĩnh vực</h1>
-      <div className={styles['light-title']}>sản xuất</div>
+      <div className={styles['light-title']}>trong lĩnh vực</div>
+      <h1  className="no-margin">sản xuất</h1>
     </div>
   )
 }
