@@ -26,7 +26,7 @@ export default function SectionOnePartThree() {
         Mặc dù có quy mô như vậy, nhưng lĩnh vực sản xuất của khu vực ASEAN chỉ đứng thứ tư trên thế giới, sau Trung Quốc, Hoa Kỳ và Đức. 
         Về năng suất trung bình, tất cả các nước thành viên ASEAN, ngoại trừ Singapore, đều đạt điểm thấp hơn đáng kể so với Hoa Kỳ và Đức.
       </p>
-      <img src="svg/globe.svg" className={styles['bg']} />
+      <img src="svg/common/globe.svg" className={styles['bg']} />
     </div>
   )
 }

@@ -25,16 +25,16 @@ export default function ManufacturingCarousel() {
   }
   return (
     <Slider className={styles['carousel']} {...settings}>
-      <img src="svg/id/countries/brunei.svg" />
-      <img src="svg/id/countries/indonesia.svg" />
-      <img src="svg/id/countries/malaysia.svg" />
-      <img src="svg/id/countries/lao.svg" />
-      <img src="svg/id/countries/vietnam.svg" />
-      <img src="svg/id/countries/thailand.svg" />
-      <img src="svg/id/countries/philippines.svg" />
-      <img src="svg/id/countries/myanmar.svg" />
-      <img src="svg/id/countries/cambodia.svg" />
-      <img src="svg/id/countries/singapore.svg" />
+      <img src="svg/vn/carousel/brunei.svg" />
+      <img src="svg/vn/carousel/indonesia.svg" />
+      <img src="svg/vn/carousel/malaysia.svg" />
+      <img src="svg/vn/carousel/lao.svg" />
+      <img src="svg/vn/carousel/vietnam.svg" />
+      <img src="svg/vn/carousel/thailand.svg" />
+      <img src="svg/vn/carousel/philippines.svg" />
+      <img src="svg/vn/carousel/myanmar.svg" />
+      <img src="svg/vn/carousel/cambodia.svg" />
+      <img src="svg/vn/carousel/singapore.svg" />
       <div />
       <div />
     </Slider>

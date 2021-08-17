@@ -57,7 +57,7 @@ export default function SectionFive() {
       
       <h6>
         Nhấp vào 
-        <a href="https://www.hitachi.com.sg/SIB-smartmanufacturing/references.pdf"> <u>đây</u> </a> 
+        <a href="./references/references_vn.pdf"> <u>đây</u> </a> 
         để tải xuống tài liệu tham khảo cho phần đồ họa thông tin này.
       </h6>
     </div>

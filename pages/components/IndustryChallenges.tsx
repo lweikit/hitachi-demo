@@ -14,13 +14,13 @@ export default function IndustryChallenges() {
   return (
     <div>
       {
-        activeIndex == 0 && <object className={styles['svg']} type="image/svg+xml" data="svg/data-living-in-silos.svg"/>
+        activeIndex == 0 && <object className={styles['svg']} type="image/svg+xml" data="svg/common/data-living-in-silos.svg"/>
       } 
       {  
-        activeIndex == 1 && <object className={styles['svg']} type="image/svg+xml" data="svg/lack-of-skilled-managers.svg"/>
+        activeIndex == 1 && <object className={styles['svg']} type="image/svg+xml" data="svg/common/lack-of-skilled-managers.svg"/>
       } 
       { 
-        activeIndex == 2 && <object className={styles['svg']} type="image/svg+xml" data="svg/cybersecurity-threats.svg"/>
+        activeIndex == 2 && <object className={styles['svg']} type="image/svg+xml" data="svg/common/cybersecurity-threats.svg"/>
       }
       <div className="space-div" />
       <Row>

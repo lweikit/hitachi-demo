@@ -6,7 +6,7 @@ export default function LumadaSolutions() {
   return (
     <Row>
       <Col xs={{ size: 12 }} lg={{ size: 4 }}>
-        <object className={styles['svg']} type="image/svg+xml" data="svg/increase-productivity.svg"/>
+        <object className={styles['svg']} type="image/svg+xml" data="svg/common/increase-productivity.svg"/>
         <h4 className={styles['bold']}>
           Tăng năng suất sản xuất
         </h4>
@@ -15,7 +15,7 @@ export default function LumadaSolutions() {
         </p>
       </Col>
       <Col xs={{ size: 12 }} lg={{ size: 4 }}>
-        <object className={styles['svg']} type="image/svg+xml" data="svg/optimise-logistics.svg"/>
+        <object className={styles['svg']} type="image/svg+xml" data="svg/common/optimise-logistics.svg"/>
         <h4 className={styles['bold']}>
           Tối ưu hóa ngành hậu cần nhờ phân tích dữ liệu
         </h4>
@@ -24,7 +24,7 @@ export default function LumadaSolutions() {
         </p>
       </Col>
       <Col xs={{ size: 12 }} lg={{ size: 4 }}>
-        <object className={styles['svg']} type="image/svg+xml" data="svg/predictive-maintenance.svg"/>
+        <object className={styles['svg']} type="image/svg+xml" data="svg/common/predictive-maintenance.svg"/>
         <h4 className={styles['bold']}>
           Bảo trì dự đoán và hỗ trợ từ xa
         </h4>

@@ -29,7 +29,7 @@ export default function SectionFour() {
       <div className="space-div" />
 
       <div>
-        <img src="svg/lumada.svg" width="200" height="100" />
+        <img src="svg/common/lumada.svg" width="200" height="100" />
       </div>
 
       <p>
