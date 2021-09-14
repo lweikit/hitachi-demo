@@ -12,7 +12,7 @@ export default function SectionFive() {
       </h3>
       <div className="space-div" />
       <h6>
-        กรุณากดเข้าดู เพื่อศึกษาในงานวิจัยของเราเพิ่มเติม
+        กรุณากดเข้าดูเพื่อทำความเข้าใจกรณีศึกษาของเราเพิ่มเติม
       </h6>
 
       <Row>
@@ -21,10 +21,11 @@ export default function SectionFive() {
             <Col lg={{ size: 6 }}>
               <CaseCard 
                 number={'01'}
-                description={`เครื่องมือช่วยในการวิเคราะห์ข้อมูล - วิธีที่ GM และ
-                Hitachi เปลี่ยนจากการผลิตยานยนต์
-                เป็นการผลิตหน้ากากอนามัยใน 6 วัน
-                `}
+                description={
+`เครื่องมือช่วยในการวิเคราะห์ข้อมูล - วิธีที่ GM และ
+Hitachi เปลี่ยนจากการผลิตยานยนต์
+เป็นการผลิตหน้ากากอนามัยใน 6 วัน`
+                }
                 href={'http://social-innovation.hitachi/en-sg/case_studies/pivot-power-gm-hitachi'}
                 img={'img/case-1.jpg'}
               />
@@ -32,12 +33,14 @@ export default function SectionFive() {
             <Col lg={{ size: 6 }}>
               <CaseCard 
                 number={'02'}
-                description={`การควบคุมภาพรวมโรงงานผลิต JUKI
-                กับความรู้และทักษะ
-                ในการปฏิบัติการของ Hitachi 
-                เพื่อทำให้สำนักงาน MONOZUKURI 
-                ก้าวหน้าทางด้านการผลิต
-                `}
+                description={
+`การร่วมมือกันระหว่าง
+โรงงานผลิต JUKI 
+กับความเชี่ยวชาญ
+การปฏิบัติการของ Hitachi 
+นำไปสู่ความล้ำหน้า
+ด้านการผลิตที่เหนือกว่า`
+                }
                 href={'http://social-innovation.hitachi/en-sg/case_studies/juki'}
                 img={'img/case-2.jpg'}
               />
@@ -45,11 +48,14 @@ export default function SectionFive() {
             <Col lg={{ size: 6 }}>
               <CaseCard 
                 number={'03'}
-                description={`โรงงานเริ่มหันไปใช้
-                ระบบการทำงานระยะไกล
-                ในช่วงที่มีการแพร่ระบาดของไวรัสโคโรนาสายพันธุ์ใหม่: 
-                ความคาดหวังของโรงงานอัจฉริยะแห่งอนาคต
-                `}
+                description={
+`เมื่อระบบการทำงานระยะไกล
+เริ่มเป็นที่ต้องการสำหรับ
+โรงงานส่วนใหญ่ในช่วงที่มี
+การแพร่ระบาดของโรคติดเชื้อไวรัสโคโรนา 2019 
+ความคาดหวังของการมี
+โรงงานอัจฉริยะในอนาคตจึงเกิดขึ้น`
+                }
                 href={'http://social-innovation.hitachi/en-sg/case_studies/smart-factory'}
                 img={'img/case-3.jpg'}
               />
@@ -57,11 +63,12 @@ export default function SectionFive() {
             <Col lg={{ size: 6 }}>
               <CaseCard 
                 number={'04'}
-                description={`มอบรอยยิ้มในชีวิตประจำวันของเรา – 
-                อุตสาหกรรมอาหารแช่แข็ง
-                กำลังวิวัฒนาการด้วย
-                เทคโนโลยีดิจิทัล
-                `}
+                description={
+`มอบรอยยิ้มให้กับการใช้ชีวิตในทุกวันของเรา
+เทคโนโลยีดิจิทัลสามารถช่วยเพิ่มผลผลิต
+ให้กับอุตสาหกรรมอาหารแช่แข็ง
+ที่เติบโตขึ้นอย่างรวดเร็ว`
+                }
                 href={'http://social-innovation.hitachi/en-sg/case_studies/nichireifoods'}
                 img={'img/case-4.jpg'}
               />

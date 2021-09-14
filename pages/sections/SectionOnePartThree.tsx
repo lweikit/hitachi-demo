@@ -5,11 +5,11 @@ export default function SectionOnePartThree() {
   return (
     <div className={`section ${styles['part-three']}`}>
       <h4>
-        ขนาดของอุตสาหกรรมภาคการผลิตของระดับภูมิภาคอาเซียน
+        ขนาดของอุตสาหกรรมการผลิตในภูมิภาคอาเซียน
       </h4>
       <div className={styles['underline']} />
       <h5>
-        เมื่อเทียบกับจีดีพีรวมของประเทศในปี 2018
+        เทียบกับจีดีพีรวมของแต่ละประเทศในภูมิภาคอาเซียนปีพ.ศ. 2561
       </h5>
 
       <div className="space-div" />
