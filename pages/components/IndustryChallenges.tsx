@@ -41,9 +41,9 @@ export default function IndustryChallenges() {
             included={false} 
             value={activeIndex} 
             onChange={setActiveIndex}
-            railStyle={{backgroundColor: '#1CA7EC', marginTop: 60}}
-            dotStyle={{borderColor: '#1CA7EC', backgroundColor: '#1CA7EC', height: 30, width: 30, marginLeft: -15, marginBottom: -75}}
-            handleStyle={{borderColor: '#1E3998', backgroundColor: '#1E3998', height: 30, width: 30, marginLeft: 0, marginTop: 50}}
+            railStyle={{backgroundColor: '#1CA7EC', marginTop: 35}}
+            dotStyle={{borderColor: '#1CA7EC', backgroundColor: '#1CA7EC', height: 30, width: 30, marginLeft: -15, marginBottom: -45}}
+            handleStyle={{borderColor: '#1E3998', backgroundColor: '#1E3998', height: 30, width: 30, marginLeft: 0, marginTop: 20}}
           />
         </Col>
       </Row>

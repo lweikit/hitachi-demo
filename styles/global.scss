@@ -155,7 +155,9 @@ a {
   @include desktop { width: 120px; font-size: 1rem; top: -80px; }
   @include mobile { width: 80px; font-size: 0.75rem; top: -70px ;}
   color: $c_medium_blue;
-  
+  display: flex;
+  justify-content: center;
+
   &.rc-slider-mark-text-active {
     color: $c_dark_blue;
   }
