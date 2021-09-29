@@ -85,7 +85,7 @@ export default function SectionFive() {
       <div className="space-div" />
       
       <h6>
-        กรุณากด<a href="./references/references_id.pdf"><u>ที่นี่</u></a>เพื่อดาวน์โหลดเอกสารอ้างอิงสำหรับรูปแบบอินโฟกราฟิกนี้
+        กรุณากด<a href="./references/references_th.pdf"><u>ที่นี่</u></a>เพื่อดาวน์โหลดเอกสารอ้างอิงสำหรับรูปแบบอินโฟกราฟิกนี้
       </h6>
     </div>
   )
