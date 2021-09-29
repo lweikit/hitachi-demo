@@ -51,8 +51,8 @@ export default function NavBar() {
           </NavItem>
           <NavItem className={styles['quick-link']}>
             <NavLink tag={Link} to="section-four" spy={true} smooth={true}>
-              <div>Hitachi's</div>
-              <div>Lumada</div>
+              <div>ศูนย์ Lumada</div>
+              <div>ของ Hitachi</div>
             </NavLink>
           </NavItem>
           <NavItem className={styles['quick-link']}>
